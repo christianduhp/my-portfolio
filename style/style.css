@@ -1,0 +1,50 @@
+@import url("./main.css");
+@import url("./about.css");
+@import url("./skills.css");
+@import url("./resume.css");
+@import url("./portfolio.css");
+@import url("./footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+
+/*  --cor-bg-primaria: #1b1b20;
+    --cor-bg-secundaria: #212124;
+    --cor-bg-secundaria: #10101A;
+ */
+
+:root{
+    --cor-bg-primaria:  #0C0C14;
+    --cor-bg-secundaria: #12121e;
+    
+    --cor-primaria: #009688;
+    --cor-secundaria: #e7e7e7 ;
+    --cor-hover: #00968738;
+
+    --font-principal: 'Ubuntu', sans-serif;
+    --font-secundaria: 'Ubuntu', sans-serif;
+ 
+    --shadow-highlight: 0px 3px 4px var(--cor-primaria); 
+    --shadow-button: 0px 2px 10px rgba(0, 0, 0, 0.6); 
+    --shadow-hover: 0px 0px 8px var(--cor-primaria); 
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{ 
+
+    box-sizing: border-box; /* para nenhuma imagem sair do body e ficar deselinhado*/
+    background-color: var(--cor-bg-primaria);
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column; 
+    font-family: var( --font-principal);
+
+}
+

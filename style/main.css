@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    padding: 1% 4% 0% 0%;
+    justify-content: end;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.main__imagem{
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: var(--shadow-highlight);
+}
+
+.header__menu__link{
+    font-size: 14px;
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    color:var(--cor-primaria);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.main__container__all{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+
+.main__container__title{
+    font-size: 3rem;
+    font-family: var(--font-principal);
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+.title-constract{ 
+    color: var(--cor-primaria);
+    font-size: 2rem;
+}
+
+
+.main__links{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 2em;
+    padding-top: 2em
+}
+
+.fa-linkedin-in{
+    padding: 0 0.1em;
+}
+
+.links__header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid var(--cor-primaria);
+    font-size: 1.5rem;
+    padding: 0.5em; 
+    color: var(--cor-primaria);
+    text-decoration: none;
+    box-shadow: var(--shadow-button);
+
+    }
+
+.links__header:hover{ /* estilza apenas quando o mouse passa por cima*/
+
+    box-shadow: var(--shadow-hover)
+}
+
+.header__menu__link:hover{
+    color: var(--cor-branco)
+}
+
+  
+  
+
+/* responsividade - Mobile  */ 
+@media(max-width: 1000px){ /* Condicao: se for superior a X widget, aplica determinado estilo, senão aplica outro  */
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        justify-content: center
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 2%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentacao__links__navegacao{
+        width: 105%;
+    }
+}

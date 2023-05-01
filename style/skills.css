@@ -1,0 +1,63 @@
+.skills__container__all{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.skills{
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 4em;
+  gap: 2em;
+}
+
+.skills__container__title{
+  margin: 0.5em;
+  font-size: 20px;
+}
+
+.skill__techincal .skills__container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skill__professional .skills__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  padding: 2em;
+  box-shadow: var(--shadow-highlight);
+  border-radius: 2em;
+  width: 6em;
+  height: 6em;
+  
+}
+ 
+.skill__container h2{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--cor-primaria)
+}
+
+.skill__container i{
+  font-size: 70px;
+  color: var(--cor-primaria);
+  margin-bottom: 10%;
+}
+
+.skill__professional .skill__container i{
+  font-size: 50px;
+  margin-bottom: 30%;
+}

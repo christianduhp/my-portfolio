@@ -1,0 +1,109 @@
+.about__container__all{
+    height: 100vh;
+    padding: 0 10%;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    background-color: var(--cor-bg-secundaria);
+}
+
+
+.about__container{
+    align-items:center;
+    justify-content: center;
+    display:flex;
+}
+
+.about__text__and__interests{
+    padding-right: 10em;
+    text-align: center;
+    
+}
+
+.section__title,
+.about__title{
+    font-size: 30px;
+
+}
+
+.about__interests__title{
+    font-size: 20px;
+}
+
+.about__paragraph__strong{
+    color: var(--cor-primaria);
+}
+
+.about__paragraph{
+    margin: 1.5em 0em;
+    text-align: justify;
+}
+
+.about__text {
+    height: 100px;
+    width: 700px;
+}
+
+
+.interests-box__all {
+    display: flex;
+    justify-content: center;
+    max-width: 800px; /* Ajuste o valor de acordo com sua preferência */
+    margin: 1em auto; /* Centraliza o container horizontalmente */
+    flex-wrap: wrap; /* Permite que as caixas sejam envolvidas em várias linhas */
+}
+
+.interests-box {
+    width: 25%; /* Define a largura de cada caixa para ocupar 25% do container */
+    padding: 10px;
+    text-align: center;
+    color: var(--cor-primaria);
+    border-radius: 1em;
+    box-shadow: var(--shadow-highlight);
+    margin: 1em;
+}
+
+
+.interests-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.interests {
+    font-size: 18px;
+    margin: 0;
+    color: var(--cor-branco);
+}
+
+.about__download,
+.about__links{
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+    border: 1.5px solid var(--cor-primaria);
+    font-size: 1.5rem;
+    padding: 0.5em 1em; 
+    color: var(--cor-primaria);
+    text-decoration: none;
+    gap: 1em;
+    margin: 0.5em 0em;
+    box-shadow: var(--shadow-button);
+
+}
+
+.about__links i {
+    margin-left: 0.3em; /* Espaçamento opcional entre o ícone e o texto */
+    
+}
+
+.download-cv{
+    margin: 2em 38%;
+}
+
+.interests-box:hover{
+    background-color: var(--cor-hover); 
+}
+.about__links:hover{
+    box-shadow: var(--shadow-highlight);
+}

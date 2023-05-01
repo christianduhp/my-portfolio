@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    padding:1.5%;
+    justify-content: center;
+
+    background-color: var(--cor-primaria);
+    font-size: 1rem;
+    font-family: var(--font-secundaria);
+}
