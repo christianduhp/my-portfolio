@@ -11,14 +11,20 @@
 .skills{
   display:flex ;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   margin: 4em 4em;
-  gap: 2em;
+  gap: 1em;
+}
+
+.skill__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills__container__title{
-  margin: 0.5em;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .skill__techincal .skills__container{
@@ -28,8 +34,15 @@
 
 .skill__professional .skills__container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
+
+.skill__container__title{
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--cor-primaria);
+}
+
 
 .skill__container{
   display: flex;
@@ -38,26 +51,37 @@
   justify-content: center;
   margin: 1em;
   padding: 2em;
-  box-shadow: var(--shadow-highlight);
+  border: 1px solid var(--cor-primaria);
   border-radius: 2em;
-  width: 6em;
-  height: 6em;
-  
+  width: 3em;
+  height: 3em;
 }
  
-.skill__container h2{
-  font-size: 18px;
-  font-weight: bold;
-  color: var(--cor-primaria)
-}
-
 .skill__container i{
-  font-size: 70px;
+  font-size: 50px;
   color: var(--cor-primaria);
   margin-bottom: 10%;
 }
 
 .skill__professional .skill__container i{
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 30%;
+}
+
+.skill__paragraph{
+  text-align: justify;
+  margin: 2em 4em;
+  width: 30em;
+  height: 20em;
+  color: var(--cor-secundaria)
+}
+
+.see-my-portfolio{
+  width: 10em;
+}
+
+.skill__container:hover{
+  background-color: var(--cor-hover);
+  box-shadow: var(--shadow-highlight);
+  transition: all 0.4s ease-in-out;
 }

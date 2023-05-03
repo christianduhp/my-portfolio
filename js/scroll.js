@@ -29,10 +29,13 @@ function scrollToSection(sectionId) {
   
   // Evento de rolagem do mouse
   let currentSectionIndex = 0; // Índice da seção atual
-  const scaleFactor = 0.1; // Fator de escala para ajustar a sensibilidade
+  const scaleFactor = 100; // Fator de escala para ajustar a sensibilidade
   
   window.addEventListener('wheel', function(event) {
   
+    // // Ajusta a sensibilidade da rolagem
+    // window.scrollBy(0, scaleFactor);
+
     // Detecta se a rolagem foi para cima ou para baixo
     const direction = event.deltaY > 0 ? 'down' : 'up';
   
@@ -56,8 +59,6 @@ function scrollToSection(sectionId) {
     // Atualiza o índice da seção atual
     currentSectionIndex = nextIndex;
   
-    // Ajusta a sensibilidade da rolagem
-    event.preventDefault();
-    window.scrollBy(0, event.deltaY * scaleFactor);
+
   });
   
