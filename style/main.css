@@ -65,18 +65,18 @@
     justify-content: center;
     text-align: center;
     border-radius: 100%;
-    border: 2px solid var(--cor-primaria);
     font-size: 1.5rem;
     padding: 0.5em; 
     color: var(--cor-primaria);
     text-decoration: none;
     box-shadow: var(--shadow-button);
+    outline: 2px solid var(--cor-primaria);
 
     }
 
-.links__header:hover{ /* estilza apenas quando o mouse passa por cima*/
-
-    box-shadow: var(--shadow-hover)
+.links__header:is(:hover, :focus){ 
+    box-shadow: var(--shadow-img);
+   
 }
 
 .header__menu__link:hover{
@@ -87,7 +87,7 @@
   
 
 /* responsividade - Mobile  */ 
-@media(max-width: 1000px){ /* Condicao: se for superior a X widget, aplica determinado estilo, senão aplica outro  */
+@media(max-width: 1000px){ 
     .cabecalho{
         padding: 10%;
     }

@@ -28,7 +28,11 @@
  
     --shadow-highlight: 0px 3px 4px var(--cor-primaria); 
     --shadow-button: 0px 2px 10px rgba(0, 0, 0, 0.6); 
-    --shadow-hover: 0px 0px 8px var(--cor-primaria); 
+    --shadow-img: 0px 0px 12px var(--cor-primaria); 
+    --shadow-hover: 0px 0px 12px var(--cor-primaria); 
+
+    --swiper-navigation-color: var(--cor-primaria);
+    --swiper-pagination-color: var(--cor-primaria);
 }
 
 
