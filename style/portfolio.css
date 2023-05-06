@@ -1,7 +1,106 @@
-.portfolio__container{
+/* Container do portfólio */
+.portfolio__container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: var(--cor-bg-secundaria)
-}
+    background-color: var(--cor-bg-secundaria);
+  }
+  
+  /* Configuração do swiper */
+  .swiper {
+    width: 70em;
+  }
+  
+  /* Slide do swiper */
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: var(--cor-bg-primaria);
+    padding: 0em 0em 2em 0em;
+    border-radius: 2em;
+    margin-bottom: 3em;
+  }
+  
+  /* Título do swiper */
+  .swiper__titulo {
+    margin-bottom: 1em;
+    font-size: 30px;
+  }
+  
+  /* Título do slide */
+  .swiper-slide__title {
+    font-size: 20px;
+    margin: 10px;
+    color: var(--cor-primaria);
+  }
+  
+  /* Imagem do slide */
+  .swiper__img {
+    width: 100%;
+  }
+  
+  /* Tags do slide */
+  .swiper-slide__tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Tag do slide */
+  .swiper-slide__tag {
+    list-style: none;
+    margin: 0.5em;
+    background-color: var(--cor-bg-secundaria);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* Ícone da tag */
+  .swiper-slide__tag i {
+    margin-right: 5px;
+    color: var(--cor-primaria);
+  }
+  
+  /* Container de informações do slide */
+  .swiper__info__container {
+    width: 100%;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Efeito de hover no slide */
+  .swiper-slide:hover {
+    box-shadow: var(--shadow-hover);
+  }
+  
+  /* Configuração da imagem e do see more */
+  .img__and__see-more {
+    position: relative;
+  }
+  
+  .swiper__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .swiper-slide__see-more {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1em 3em;
+    background-color:var(--cor-primaria);
+    color: var(--cor-branco);
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Efeito de hover no see more */
+  .img__and__see-more:hover .swiper-slide__see-more {
+    opacity: 1;
+  }
