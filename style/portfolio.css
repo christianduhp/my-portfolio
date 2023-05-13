@@ -12,6 +12,11 @@
     width: 70em;
   }
   
+  .portfolio__swiper h3{
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: var(--cor-primaria)
+  }
   /* Slide do swiper */
   .swiper-slide {
     display: flex;
@@ -80,6 +85,7 @@
   /* Configuração da imagem e do see more */
   .img__and__see-more {
     position: relative;
+    margin-bottom: 1em;
   }
   
   .swiper__img {
