@@ -87,7 +87,7 @@
     color: var(--cor-primaria);
     text-decoration: none;
     gap: 1em;
-    margin: 0.5em 0em;
+    margin: 1em 0em;
     box-shadow: var(--shadow-button);
 
 }
