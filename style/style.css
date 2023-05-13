@@ -22,6 +22,8 @@
     /* --cor-primaria: #009688; */
     --cor-primaria: #7ca8dd;
     --cor-secundaria: #e7e7e7 ;
+
+    --cor-text: #5c6d7e;
     /* --cor-hover: #00968738; */
     --cor-hover: #283647;
 
@@ -45,12 +47,12 @@
 
 html, body{ 
 
-    box-sizing: border-box; /* para nenhuma imagem sair do body e ficar deselinhado*/
+    box-sizing: border-box; 
     background-color: var(--cor-bg-primaria);
     color: var(--cor-secundaria);
     display: flex;
     flex-direction: column; 
     font-family: var( --font-principal);
-
+    overflow: hidden
 }
 

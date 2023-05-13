@@ -1,6 +1,127 @@
-.resume__container{
+.resume__container__all {
     display: flex;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.resume__title{
+    font-size: 30px;
+    margin: 2em
+}
+
+.resume__containers{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.resume__container {
+    margin: 1em 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume__cointainer__title {
+    display: flex;
+    margin-bottom   : 1em;
+    font-size: 24px;
+    gap: 0.5em;
+}
+
+.timeline {
+    position: relative;
+
+}
+
+/* .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--cor-primaria);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+} */
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: var(--cor-primaria);
+    top: 0;
+    bottom: 0;
+    margin-left: -2px;
+}
+
+.timeline-item {
+    padding: 20px 0;
+    position: relative;
+    max-width: 30em;
+}
+
+.timeline-item p{
+    text-align: justify;
+}
+
+/* .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -9px;
+    background-color: var(--cor-primaria);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+} */
+
+.timeline-item-content {
+    padding: 20px;
+    background-color: var(--cor-bg-secundaria);
+    position: relative;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.timeline__title__date{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+
+.timeline-item-content h2 {
+    font-size: 20px;
+}
+
+.timeline-item-content::before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--cor-primaria) transparent transparent;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+.timeline__date{
+    color: var(--cor-primaria);
+}
+
+.timeline-item-content h2 {
+    margin-top: 0;
+    color: var(--cor-primaria);
+}
+
+.timeline__text {
+    margin: 0.2em 0em;
+    color: var(--cor-text);
 }

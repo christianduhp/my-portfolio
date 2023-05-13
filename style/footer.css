@@ -2,8 +2,9 @@
     display: flex;
     padding:1.5%;
     justify-content: center;
-
+    color: var(--cor-bg-primaria);
     background-color: var(--cor-primaria);
     font-size: 1rem;
-    font-family: var(--font-secundaria);
+    font-weight: 500;
+ 
 }
