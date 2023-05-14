@@ -76,7 +76,7 @@
     color: var(--cor-branco);
 }
 
-.about__download,
+.download-cv,
 .about__links{
     display: flex;
     align-items: center;
@@ -107,4 +107,98 @@
 }
 .about__links:hover{
     box-shadow: var(--shadow-highlight);
+}
+
+.download-cv{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Esconde a seção de navegação e o botão "See my portfolio" */
+    .about__navegation {
+        display: none;
+    }
+    .see-my-portfolio {
+        display: none;
+    }
+
+    /* Reduz o padding do container geral */
+    .about__container__all {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Centraliza o texto e os interesses em coluna única */
+    
+    .about__text__and__interests {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+
+    /* Ajusta o tamanho e alinhamento do texto de apresentação */
+    .about__text {
+        width: 100%;
+        min-height: 10em;
+        max-width: 400px;
+        margin: 0;
+        font-size: 1em;
+    }
+
+    /* Exibe o botão de download do CV */
+    .download-cv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1em
+    }
+
+    /* Ajusta o estilo dos interesses */
+    .about__interests {
+        margin-top: 3em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about__interests__title {
+        margin: 0.5em;
+        font-size: 24px;
+        padding: 0;
+    }
+    .interests-box__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 2em;
+    }
+    .interests-box__all {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+    .interests-box {
+        width: 25%;
+        padding: 0.5em 2em;
+        text-align: center;
+        color: var(--cor-primaria);
+        border-radius: 1em;
+        box-shadow: var(--shadow-highlight);
+        margin: 0.5em;
+    }
+    .interests-box i {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    .interests {
+        font-size: 18px;
+        margin: 0;
+        color: var(--cor-branco);
+    }
 }

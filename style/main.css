@@ -83,27 +83,101 @@
     color: var(--cor-branco)
 }
 
-  
-  
 
-/* responsividade - Mobile  */ 
-@media(max-width: 1000px){ 
-    .cabecalho{
-        padding: 10%;
-    }
-    .cabecalho__menu{
-        justify-content: center
-    }
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 2%;
-    }
-
-    .apresentacao__conteudo{
-        width: auto;
-    }
-
-    .apresentacao__links__navegacao{
-        width: 105%;
-    }
+.header-mobile__checkbox,
+.header-mobile__label{
+ display: none;
 }
+  
+
+/* Responsividade - Mobile */
+@media screen and (max-width: 1000px) {
+
+    /* Header */
+    .header {
+      position: absolute;
+      justify-content: flex-start;
+      padding: 0;
+    }
+    
+    .header__menu {
+      display: none;
+    }
+    
+    .header-mobile__label {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .header-mobile__bars {
+      width: 3em;
+      padding: 1em 2em;
+      font-size: 32px;
+    }
+    
+    .header-mobile__bars-close {
+      display: none;
+      visibility: hidden;
+    }
+    
+    .header-mobile__checkbox {
+      display: none;
+    }
+    
+    .header-mobile__checkbox:checked + .header-mobile__label .header-mobile__bars-open {
+      display: none;
+      visibility: hidden;
+      position: absolute;  
+    }
+    
+    .header-mobile__checkbox:checked + .header-mobile__label .header-mobile__bars-close {
+      display: inline-block;
+      visibility: visible;
+    }
+    
+    .header-mobile__checkbox:checked ~ .header__menu {
+      position: absolute;
+      top: 4em;
+      margin: 1em 0;
+      gap: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--cor-bg-secundaria);
+    }
+    
+    .header-mobile__checkbox:checked + .header-mobile__label {
+      background-color: var(--cor-bg-secundaria);
+    }
+    
+    .header__menu__link {
+      display: block;
+      margin: 0;
+      padding: 1em 3em;
+      width: 10em;
+    }
+    
+    /* Main */
+    .main__container__all {
+      justify-content: center;
+      gap: 1em;
+    }
+    
+    .main__imagem {
+      width: 60%;
+    }
+    
+    .main__container__title {
+      font-size: 2em;
+      font-family: var(--font-principal);
+      text-align: center;
+      margin-top: 1em;
+    }
+    
+    .title-constract{
+        font-size: 28px;
+    }
+
+ 
+
+  }
+  
