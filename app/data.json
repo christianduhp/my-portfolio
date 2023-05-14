@@ -1,0 +1,54 @@
+{
+  "interests": [
+    {
+      "title": "Code",
+      "text": "I absolutely love coding! The thrill of creating something out of lines of code never gets old. Whether it's designing a website or developing a new software, the possibilities are endless. I enjoy spending hours solving complex problems and refining my skills to create efficient and <span class='about__paragraph__strong'>elegant code</span>."
+    },
+    {
+      "title": "Technology",
+      "text": "<span class='about__paragraph__strong'>Technology fascinates me!</span> I'm always interested in learning about the latest advancements and how they can improve our lives. From smartphones to self-driving cars, <span class='about__paragraph__strong'>the possibilities of what technology can achieve are endless</span>. I love exploring new gadgets and finding innovative ways to use them."
+    },
+    {
+      "title": "AI",
+      "text": "The potential of AI excites me! The ability to create machines that can learn, reason and make decisions on their own is truly amazing. From chatbots to autonomous drones, AI is transforming the way we live and work. I'm eager to learn more about this field and explore the endless possibilities of AI."
+    },
+    {
+      "title": "Science",
+      "text": "Science has always been a passion of mine! I love learning about the mysteries of the universe, from the smallest particles to the largest galaxies. The more we learn about our world, the more we realize how much there is to discover. From biology to physics, the world of science is full of wonder and amazement."
+    },
+    {
+      "title": "Travel",
+      "text": "Traveling is one of my greatest passions! Exploring new cultures, tasting new foods and seeing new sights is truly exhilarating. From the bustling streets of Tokyo to the stunning natural beauty of the Swiss Alps, there's so much to see and do in the world. I'm always looking for new adventures and experiences to add to my travel bucket list."
+    },
+    {
+      "title": "Movies",
+      "text": "I'm a huge movie buff! I enjoy watching all types of films from classics to the latest releases. Movies have the ability to transport us to different worlds, tell amazing stories, and make us feel a range of emotions. From action-packed blockbusters to indie dramas, I love it all."
+    }
+  ],
+  "skills": [
+    {
+      "title": "Python",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum, sapien vel tempor ullamcorper, elit purus auctor elit, at cursus velit enim quis nisi. Nunc vestibulum posuere sapien, vel malesuada turpis mattis et. Integer vel tellus at justo ultricies euismod. Praesent faucibus malesuada ligula vitae facilisis. Pellentesque euismod nunc nec mauris malesuada vehicula. Etiam ullamcorper, nisl a lacinia commodo, enim augue lobortis sapien, vel fermentum purus dolor non velit. Donec et nulla a felis rhoncus lobortis. Sed viverra risus et erat rhoncus mollis. Sed euismod nisl id arcu consectetur, eu pulvinar sapien malesuada. Sed lacinia, elit vel pharetra ultricies, mi justo commodo turpis, sed venenatis leo sapien vitae libero. Mauris accumsan ut purus vel efficitur. Suspendisse nec elit at elit venenatis commodo."
+    },
+    {
+      "title": "JavaScript",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum, sapien vel tempor ullamcorper, elit purus auctor elit, at cursus velit enim quis nisi. Nunc vestibulum posuere sapien, vel malesuada turpis mattis et. Integer vel tellus at justo ultricies euismod. Praesent faucibus malesuada ligula vitae facilisis. Pellentesque euismod nunc nec mauris malesuada vehicula. Etiam ullamcorper, nisl a lacinia commodo, enim augue lobortis sapien, vel fermentum purus dolor non velit. Donec et nulla a felis rhoncus lobortis. Sed viverra risus et erat rhoncus mollis. Sed euismod nisl id arcu consectetur, eu pulvinar sapien malesuada. Sed lacinia, elit vel pharetra ultricies, mi justo commodo turpis, sed venenatis leo sapien vitae libero. Mauris accumsan ut purus vel efficitur. Suspendisse nec elit at elit venenatis commodo."
+    },
+    {
+      "title": "HTML5",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum, sapien vel tempor ullamcorper, elit purus auctor elit, at cursus velit enim quis nisi. Nunc vestibulum posuere sapien, vel malesuada turpis mattis et. Integer vel tellus at justo ultricies euismod. Praesent faucibus malesuada ligula vitae facilisis. Pellentesque euismod nunc nec mauris malesuada vehicula. Etiam ullamcorper, nisl a lacinia commodo, enim augue lobortis sapien, vel fermentum purus dolor non velit. Donec et nulla a felis rhoncus lobortis. Sed viverra risus et erat rhoncus mollis. Sed euismod nisl id arcu consectetur, eu pulvinar sapien malesuada. Sed lacinia, elit vel pharetra ultricies, mi justo commodo turpis, sed venenatis leo sapien vitae libero. Mauris accumsan ut purus vel efficitur. Suspendisse nec elit at elit venenatis commodo."
+    },
+    {
+      "title": "CSS3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum, sapien vel tempor ullamcorper, elit purus auctor elit, at cursus velit enim quis nisi. Nunc vestibulum posuere sapien, vel malesuada turpis mattis et. Integer vel tellus at justo ultricies euismod. Praesent faucibus malesuada ligula vitae facilisis. Pellentesque euismod nunc nec mauris malesuada vehicula. Etiam ullamcorper, nisl a lacinia commodo, enim augue lobortis sapien, vel fermentum purus dolor non velit. Donec et nulla a felis rhoncus lobortis. Sed viverra risus et erat rhoncus mollis. Sed euismod nisl id arcu consectetur, eu pulvinar sapien malesuada. Sed lacinia, elit vel pharetra ultricies, mi justo commodo turpis, sed venenatis leo sapien vitae libero. Mauris accumsan ut purus vel efficitur. Suspendisse nec elit at elit venenatis commodo."
+    },
+    {
+      "title": "C++",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum, sapien vel tempor ullamcorper, elit purus auctor elit, at cursus velit enim quis nisi. Nunc vestibulum posuere sapien, vel malesuada turpis mattis et. Integer vel tellus at justo ultricies euismod. Praesent faucibus malesuada ligula vitae facilisis. Pellentesque euismod nunc nec mauris malesuada vehicula. Etiam ullamcorper, nisl a lacinia commodo, enim augue lobortis sapien, vel fermentum purus dolor non velit. Donec et nulla a felis rhoncus lobortis. Sed viverra risus et erat rhoncus mollis. Sed euismod nisl id arcu consectetur, eu pulvinar sapien malesuada. Sed lacinia, elit vel pharetra ultricies, mi justo commodo turpis, sed venenatis leo sapien vitae libero. Mauris accumsan ut purus vel efficitur. Suspendisse nec elit at elit venenatis commodo."
+    },
+    {
+      "title": "Excel VBA",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum, sapien vel tempor ullamcorper, elit purus auctor elit, at cursus velit enim quis nisi. Nunc vestibulum posuere sapien, vel malesuada turpis mattis et. Integer vel tellus at justo ultricies euismod. Praesent faucibus malesuada ligula vitae facilisis. Pellentesque euismod nunc nec mauris malesuada vehicula. Etiam ullamcorper, nisl a lacinia commodo, enim augue lobortis sapien, vel fermentum purus dolor non velit. Donec et nulla a felis rhoncus lobortis. Sed viverra risus et erat rhoncus mollis. Sed euismod nisl id arcu consectetur, eu pulvinar sapien malesuada. Sed lacinia, elit vel pharetra ultricies, mi justo commodo turpis, sed venenatis leo sapien vitae libero. Mauris accumsan ut purus vel efficitur. Suspendisse nec elit at elit venenatis commodo."
+    }
+  ]
+}

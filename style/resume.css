@@ -6,12 +6,12 @@
     min-height: 100vh;
 }
 
-.resume__title{
+.resume__title {
     font-size: 30px;
-    margin: 2em
+    margin: 2em;
 }
 
-.resume__containers{
+.resume__containers {
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -25,28 +25,18 @@
     align-items: center;
 }
 
-.resume__cointainer__title {
+.resume__container__title {
     display: flex;
-    margin-bottom   : 1em;
+    margin-bottom: 1em;
     font-size: 24px;
     gap: 0.5em;
+    color: var(--cor-primaria);
 }
 
 .timeline {
     position: relative;
 
 }
-
-/* .timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background-color: var(--cor-primaria);
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
-} */
 
 .timeline::after {
     content: '';
@@ -55,8 +45,10 @@
     background-color: var(--cor-primaria);
     top: 0;
     bottom: 0;
+    /* left: 50%; */
     margin-left: -2px;
 }
+
 
 .timeline-item {
     padding: 20px 0;
@@ -64,21 +56,11 @@
     max-width: 30em;
 }
 
-.timeline-item p{
+.timeline-item p {
     text-align: justify;
 }
 
-/* .timeline-item::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: -9px;
-    background-color: var(--cor-primaria);
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-} */
+
 
 .timeline-item-content {
     padding: 20px;
@@ -88,7 +70,7 @@
     z-index: 1;
 }
 
-.timeline__title__date{
+.timeline__title__date {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -101,7 +83,7 @@
     font-size: 20px;
 }
 
-.timeline-item-content::before {
+/* .timeline-item-content::before {
     content: '';
     position: absolute;
     border-style: solid;
@@ -110,9 +92,21 @@
     top: 50%;
     left: -10px;
     transform: translateY(-50%);
+} */
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -9px;
+    background-color: var(--cor-primaria);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
 }
 
-.timeline__date{
+.timeline__date {
     color: var(--cor-primaria);
 }
 
