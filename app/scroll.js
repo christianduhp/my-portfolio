@@ -3,6 +3,9 @@ function scrollToSection(sectionId) {
   const start = window.pageYOffset;
   const end = section.offsetTop;
   const duration = 800; 
+
+  // Verifica se a largura da tela é menor que 768 pixels
+
   function animate(currentTime) {
     if (!startTime) {
       startTime = currentTime;

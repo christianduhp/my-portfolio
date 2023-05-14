@@ -46,13 +46,17 @@
 }
 
 html, body{ 
-
     box-sizing: border-box; 
     background-color: var(--cor-bg-primaria);
     color: var(--cor-secundaria);
     display: flex;
     flex-direction: column; 
     font-family: var( --font-principal);
-    overflow: hidden
+    overflow:hidden
 }
 
+@media screen and (max-width: 768px) {
+    body {
+      overflow:visible;
+    }
+  }
