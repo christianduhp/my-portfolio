@@ -111,7 +111,7 @@
     
     .header-mobile__bars {
       width: 3em;
-      padding: 1em 2em;
+      padding: 1em;
       font-size: 32px;
     }
     
@@ -152,7 +152,7 @@
     .header__menu__link {
       display: block;
       margin: 0;
-      padding: 1em 3em;
+      padding: 1em 0.7em;
       width: 10em;
     }
     

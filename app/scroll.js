@@ -5,6 +5,9 @@ function scrollToSection(sectionId) {
   const duration = 800; 
 
   // Verifica se a largura da tela é menor que 768 pixels
+  if (window.innerWidth < 768) {
+    return;
+  }
 
   function animate(currentTime) {
     if (!startTime) {
