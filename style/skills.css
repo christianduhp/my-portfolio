@@ -1,5 +1,5 @@
 .skills__container__all{
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,9 +87,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .skills__container__all{
-    margin: 1em;
-  }
+
 
   .skills__title{
     margin-bottom: 0.5em;
@@ -104,15 +102,19 @@
     width: 100%;
     min-height: 25em;
     max-width: 600px;
-    margin: 0 0 1em 0;
+    margin: 1em 2em;
   }
 
   .skill__techincal .skills__container {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .skills__container__title{
+    margin: 10%;
+  }
+
   .skill__container {
-    margin: 1em 0.5em;
+    margin:0.4em;
     width: 1em;
     height: 1em;
     border-radius: 1.5em;

@@ -119,3 +119,11 @@
     margin: 0.2em 0em;
     color: var(--cor-text);
 }
+
+@media screen and (max-width: 768px) {
+
+    .resume__containers{
+        display: flex;
+        flex-direction: column;
+    }
+}

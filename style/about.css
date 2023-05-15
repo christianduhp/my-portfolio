@@ -1,5 +1,5 @@
 .about__container__all{
-    height: 100vh;
+    min-height: 100vh;
     padding: 0 10%;
     align-items:center;
     justify-content: center;
@@ -23,7 +23,6 @@
 .section__title,
 .about__title{
     font-size: 30px;
-
 }
 
 .about__interests__title{
@@ -113,6 +112,7 @@
     display: none;
 }
 
+
 @media screen and (max-width: 768px) {
 
     /* Esconde a seção de navegação e o botão "See my portfolio" */
@@ -140,6 +140,7 @@
         justify-content: center;
         align-items: center;
         padding-right: 0;
+        margin: 10% 0;
     }
 
     /* Ajusta o tamanho e alinhamento do texto de apresentação */
@@ -147,7 +148,7 @@
         width: 100%;
         min-height: 10em;
         max-width: 400px;
-        margin: 0;
+        margin: 0 0 15% 0;
         font-size: 1em;
     }
 
@@ -156,12 +157,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 18px;
         margin: 1em
     }
 
     /* Ajusta o estilo dos interesses */
     .about__interests {
-        margin-top: 3em;
+        margin: 0;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -181,10 +183,10 @@
     }
     .interests-box__all {
         width: 100%;
-        margin: 0 0 1em 0;
+        margin: 0 0 0 0;
     }
     .interests-box {
-        width: 25%;
+        width: 20%;
         padding: 0.5em 2em;
         text-align: center;
         color: var(--cor-primaria);
@@ -197,8 +199,12 @@
         margin-bottom: 10px;
     }
     .interests {
-        font-size: 18px;
+        font-size: 14px;
         margin: 0;
         color: var(--cor-branco);
+    }
+
+    .about__interests{
+        margin: 10% 0em;
     }
 }

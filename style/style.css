@@ -52,6 +52,7 @@ html, body{
     display: flex;
     flex-direction: column; 
     font-family: var( --font-principal);
-    overflow-y: hidden;
+    overflow-x: hidden;
+    word-wrap: break-word;
 }
 
