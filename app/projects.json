@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Robotron",
+      "image": "./assets/robotron.png",
+      "link": "https://github.com/christianduhp/robotron",
+      "tags": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Calculadora para construção civil",
+      "image": "./assets/calculadora.png",
+      "link": "https://github.com/christianduhp/calculadora-laje-forro",
+      "tags": ["Python"]
+    },
+    {
+      "title": "Alurabooks",
+      "image": "./assets/alurabook.png",
+      "link": "https://github.com/christianduhp/AluraBook",
+      "tags": ["HTML", "CSS", "JavaScript"]
+    }
+
+  ]
+  
