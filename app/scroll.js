@@ -1,5 +1,5 @@
 function scrollToSection(sectionId) {
-  if (window.innerWidth >= 768) { // Defina a largura mínima da tela em que o código deve funcionar
+  if (window.innerWidth >= 1024) { // Defina a largura mínima da tela em que o código deve funcionar
     const section = document.querySelector(sectionId);
     const start = window.pageYOffset;
     const end = section.offsetTop;

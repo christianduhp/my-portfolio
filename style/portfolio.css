@@ -111,8 +111,8 @@
     opacity: 1;
   }
 
-
-  @media screen and (max-width: 768px) {
+/* Responsividade - Mobile */
+@media screen and (max-width: 749px) {
 
     .portfolio__swiper,
     .swiper__container{
@@ -130,7 +130,9 @@
     }
 
     .swiper {
-      width: 20em;
+      min-width: 20em;
+      max-width: 25em;
+      margin: 2em 0em
     }
 
     .swiper-slide {
@@ -140,4 +142,35 @@
       width: 1em;
       margin: 2em 0;
     }
+  }
+
+  
+  /* Responsividade - Tablets */
+  @media screen and (min-width: 750px) and (max-width: 1024px) {
+
+    .portfolio__swiper,
+    .swiper__container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .swiper__container h3 {
+      font-size: 1.2em;
+      margin: 0.5em 1.5em;
+      text-align: center;
+     
+    }
+
+    .swiper {
+      min-width: 50em;
+      max-width: 60em;
+      margin: 2em 0;
+
+    }
+
+
+
+
   }
