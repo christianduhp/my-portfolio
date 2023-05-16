@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
 .skills{
@@ -88,6 +87,11 @@
 
 /* Responsividade - Mobile */
 @media screen and (max-width: 749px) {
+
+  .see-my-portfolio{
+    display: none;
+  }
+
   .skills__title{
     margin-bottom: 0.5em;
   }
@@ -95,22 +99,29 @@
     flex-direction: column;
     margin: 2em 1em;
     align-items: center;
+    gap: 5em;
   }
 
-  .skill__paragraph{
-    width: 100%;
-    min-height: 25em;
-    max-width: 600px;
-    margin: 0em 2em;
+  .skill__text{
+    margin: 2em 2em;
   }
-    
+
+  .skill__text p{  
+    width: 100%;
+    max-width: 400px;
+    margin: 0 2em 2em 2em;
+    font-size: 1em;
+  } 
+
   .skills__container__title{
     font-size: 24px;
+    margin-top: 1em ;
   }
 
   .skills__container,
   .skill__techincal{
     margin-top: 2em; 
+    position: relative;
   }
 
   .skill__techincal .skills__container {
@@ -149,7 +160,7 @@
       max-width: 400px;
       margin: 0em 2em;
     }
-  
+ 
     .skills__container{
       margin-top: 2em; 
     }

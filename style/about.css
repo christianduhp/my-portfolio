@@ -141,7 +141,7 @@
         justify-content: center;
         align-items: center;
         padding-right: 0;
-        margin: 10% 0;
+        margin: 10% 0em;
     }
 
     /* Ajusta o tamanho e alinhamento do texto de apresentação */
@@ -149,8 +149,12 @@
         width: 100%;
         min-height: 10em;
         max-width: 400px;
-        margin: 0 0 15% 0;
+        margin: 0 2em 15% 2em;
         font-size: 1em;
+    }
+
+    .about__paragraph{
+        margin: 1em 1em 0 1em;
     }
 
     /* Exibe o botão de download do CV */
@@ -184,7 +188,7 @@
     }
     .interests-box__all {
         width: 100%;
-        margin: 0 0 0 0;
+        margin: 0;
     }
     .interests-box {
         width: 25%;
