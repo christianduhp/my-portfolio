@@ -1,4 +1,4 @@
-.skills__container__all{
+.skills__container__all {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,43 +7,43 @@
   text-align: center;
 }
 
-.skills{
-  display:flex ;
+.skills {
+  display: flex;
   justify-content: center;
   align-items: baseline;
   margin: 4em 4em;
   gap: 1em;
 }
 
-.skill__text{
+.skill__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.skills__container__title{
+.skills__container__title {
   font-size: 18px;
 }
 
-.skill__techincal .skills__container{
+.skill__techincal .skills__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skill__professional .skills__container{
+.skill__professional .skills__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skill__container__title{
+.skill__container__title {
   font-size: 12px;
   font-weight: bold;
   color: var(--cor-primaria);
 }
 
 
-.skill__container{
+.skill__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,19 +55,19 @@
   width: 3em;
   height: 3em;
 }
- 
-.skill__container i{
+
+.skill__container i {
   font-size: 3em;
   color: var(--cor-primaria);
   margin-bottom: 10%;
 }
 
-.skill__professional .skill__container i{
+.skill__professional .skill__container i {
   font-size: 2em;
   margin-bottom: 30%;
 }
 
-.skill__paragraph{
+.skill__paragraph {
   text-align: justify;
   margin: 2em 4em;
   width: 30em;
@@ -75,11 +75,11 @@
   color: var(--cor-secundaria)
 }
 
-.see-my-portfolio{
+.see-my-portfolio {
   width: 10em;
 }
 
-.skill__container:hover{
+.skill__container:hover {
   background-color: var(--cor-hover);
   box-shadow: var(--shadow-hover);
   transition: all 0.3s ease-in-out;
@@ -88,13 +88,14 @@
 /* Responsividade - Mobile */
 @media screen and (max-width: 749px) {
 
-  .see-my-portfolio{
+  .see-my-portfolio {
     display: none;
   }
 
-  .skills__title{
+  .skills__title {
     margin-bottom: 0.5em;
   }
+
   .skills {
     flex-direction: column;
     margin: 2em 1em;
@@ -102,25 +103,25 @@
     gap: 5em;
   }
 
-  .skill__text{
+  .skill__text {
     margin: 2em 2em;
   }
 
-  .skill__text p{  
+  .skill__text p {
     width: 100%;
     max-width: 400px;
     margin: 0 2em 2em 2em;
     font-size: 1em;
-  } 
+  }
 
-  .skills__container__title{
+  .skills__container__title {
     font-size: 24px;
-    margin-top: 1em ;
+    margin-top: 1em;
   }
 
   .skills__container,
-  .skill__techincal{
-    margin-top: 2em; 
+  .skill__techincal {
+    margin-top: 2em;
     position: relative;
   }
 
@@ -129,62 +130,59 @@
   }
 
   .skill__container {
-    margin:0.4em;
+    margin: 0.4em;
     width: 2em;
     height: 2em;
     border-radius: 1.5em;
     box-shadow: var(--shadow-highlight);
   }
 
-
-  .skill__container i{
+  .skill__container i {
     font-size: 2em;
   }
 }
 
-
-  /* Responsividade - Tablets */
-  @media screen and (min-width: 750px) and (max-width: 1024px) {
-    .skills__title{
-      margin-bottom: 0.5em;
-    }
-    .skills {
-      flex-direction: column;
-      margin: 2em 1em;
-      align-items: center;
-    }
-  
-    .skill__paragraph{
-      width: 100%;
-      min-height: 25em;
-      max-width: 400px;
-      margin: 0em 2em;
-    }
- 
-    .skills__container{
-      margin-top: 2em; 
-    }
-  
-    .skills__container__title{
-      font-size: 24px;
-    }
-
-    .skill__techincal .skills__container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  
-    .skill__container {
-      margin:0.8em;
-      width: 4em;
-      height: 4em;
-      border-radius: 2em;
-      box-shadow: var(--shadow-highlight);
-    }
-  
-  
-    .skill__container i{
-      font-size: 4em;
-    }
-
-
+/* Responsividade - Tablets */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+  .skills__title {
+    margin-bottom: 0.5em;
   }
+
+  .skills {
+    flex-direction: column;
+    margin: 2em 1em;
+    align-items: center;
+  }
+
+  .skill__paragraph {
+    width: 100%;
+    min-height: 25em;
+    max-width: 400px;
+    margin: 0em 2em;
+  }
+
+  .skills__container {
+    margin-top: 2em;
+  }
+
+  .skills__container__title {
+    font-size: 24px;
+  }
+
+  .skill__techincal .skills__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skill__container {
+    margin: 0.8em;
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    box-shadow: var(--shadow-highlight);
+  }
+
+  .skill__container i {
+    font-size: 4em;
+  }
+
+}

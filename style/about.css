@@ -1,39 +1,36 @@
-.about__container__all{
+.about__container__all {
     min-height: 100vh;
-    padding: 0 10%;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    display:flex;
     background-color: var(--cor-bg-secundaria);
 }
 
-
-.about__container{
-    align-items:center;
+.about__container {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    display:flex;
 }
 
-.about__text__and__interests{
-    padding-right: 10em;
+.about__text__and__interests {
     text-align: center;
-    
+    margin: 3em;
 }
 
 .section__title,
-.about__title{
+.about__title {
     font-size: 30px;
 }
 
-.about__interests__title{
+.about__interests__title {
     font-size: 20px;
 }
 
-.about__paragraph__strong{
+.about__paragraph__strong {
     color: var(--cor-primaria);
 }
 
-.about__paragraph{
+.about__paragraph {
     margin: 1.5em 0em;
     text-align: justify;
 }
@@ -43,17 +40,16 @@
     width: 700px;
 }
 
-
 .interests-box__all {
     display: flex;
     justify-content: center;
-    max-width: 800px; /* Ajuste o valor de acordo com sua preferência */
-    margin: 1em auto; /* Centraliza o container horizontalmente */
-    flex-wrap: wrap; /* Permite que as caixas sejam envolvidas em várias linhas */
+    max-width: 800px;
+    margin: 1em auto;
+    flex-wrap: wrap;
 }
 
 .interests-box {
-    width: 25%; /* Define a largura de cada caixa para ocupar 25% do container */
+    width: 25%;
     padding: 10px;
     text-align: center;
     color: var(--cor-primaria);
@@ -62,11 +58,9 @@
     margin: 1em;
 }
 
-
 .interests-box i {
     font-size: 24px;
     margin-bottom: 10px;
-
 }
 
 .interests {
@@ -76,55 +70,52 @@
 }
 
 .download-cv,
-.about__links{
+.about__links {
     display: flex;
     align-items: center;
     border-radius: 1em;
     border: 1.5px solid var(--cor-primaria);
+    box-shadow: var(--shadow-button);
     font-size: 1.5rem;
-    padding: 0.5em 1em; 
+    padding: 0.5em 1em;
     color: var(--cor-primaria);
     text-decoration: none;
     gap: 1em;
     margin: 1em 0em;
-    box-shadow: var(--shadow-button);
-
+    min-width: 9em;
 }
 
 .about__links i {
-    margin-left: 0.3em; /* Espaçamento opcional entre o ícone e o texto */
-    
+    margin-left: 0.3em;
 }
 
-.download-cv{
+.download-cv {
     margin: 2em 38%;
 }
 
-.interests-box:hover{
-    background-color: var(--cor-hover); 
+.interests-box:hover {
+    background-color: var(--cor-hover);
     transition: all 0.4s ease-in-out;
 }
-.about__links:hover{
+
+.about__links:hover {
     box-shadow: var(--shadow-highlight);
 }
 
-.download-cv{
+.download-cv {
     display: none;
 }
 
-
 /* Responsividade - Mobile */
 @media screen and (max-width: 749px) {
-
-    /* Esconde a seção de navegação e o botão "See my portfolio" */
     .about__navegation {
         display: none;
     }
+
     .see-my-portfolio {
         display: none;
     }
 
-    /* Reduz o padding do container geral */
     .about__container__all {
         padding: 0 5%;
         display: flex;
@@ -132,9 +123,7 @@
         justify-content: center;
         align-items: center;
     }
-
-    /* Centraliza o texto e os interesses em coluna única */
-    
+    .about__text__and__links,
     .about__text__and__interests {
         display: flex;
         flex-direction: column;
@@ -144,7 +133,6 @@
         margin: 10% 0em;
     }
 
-    /* Ajusta o tamanho e alinhamento do texto de apresentação */
     .about__text {
         width: 100%;
         min-height: 10em;
@@ -153,79 +141,44 @@
         font-size: 1em;
     }
 
-    .about__paragraph{
+    .about__paragraph {
         margin: 1em 1em 0 1em;
     }
 
-    /* Exibe o botão de download do CV */
+    .about__interests {
+        margin: 10% 0% 0% 0%;
+    }
+
+    .interests-box__all {
+        max-width: 100%;
+    }
+
+    .interests-box {
+        width: 30%;
+        margin: 1em 0.5em;
+        padding: 1em;
+    }
+
+    .interests{
+        font-size: 14px;
+    }
     .download-cv {
         display: flex;
-        align-items: center;
         justify-content: center;
-        font-size: 18px;
-        margin: 1em
-    }
-
-    /* Ajusta o estilo dos interesses */
-    .about__interests {
-        margin: 0;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .about__interests__title {
-        margin: 0.5em;
-        font-size: 24px;
-        padding: 0;
-    }
-    .interests-box__container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        margin: 0 2em;
-    }
-    .interests-box__all {
-        width: 100%;
-        margin: 0;
-    }
-    .interests-box {
-        width: 25%;
-        padding: 0.5em 2em;
-        text-align: center;
-        color: var(--cor-primaria);
-        border-radius: 1em;
-        box-shadow: var(--shadow-highlight);
-        margin: 0.5em;
-    }
-    .interests-box i {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
-    .interests {
-        font-size: 14px;
-        margin: 0;
-        color: var(--cor-branco);
-    }
-
-    .about__interests{
-        margin: 10% 0em;
+        max-width: 15em;
     }
 }
 
   /* Responsividade - Tablets */
   @media screen and (min-width: 750px) and (max-width: 1024px) {
-
     
-    /* Esconde a seção de navegação e o botão "See my portfolio" */
     .about__navegation {
         display: none;
     }
+
     .see-my-portfolio {
         display: none;
     }
-
 
     .about__container__all {
         padding: 0 5%;
@@ -233,7 +186,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-      
     }
 
     .about__text__and__links{
@@ -241,20 +193,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 2em;
     }
 
-    /* Centraliza o texto e os interesses em coluna única */
-    
     .about__text__and__interests {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-right: 0;
-        margin: 0;
+        margin: 0em;
     }
 
-    /* Ajusta o tamanho e alinhamento do texto de apresentação */
     .about__text {
         width: 100%;
         min-height: 10em;
@@ -263,7 +213,6 @@
         font-size: 1em;
     }
 
-    /* Exibe o botão de download do CV */
     .download-cv {
         display: flex;
         align-items: center;
@@ -273,8 +222,6 @@
         width: 15em;
         padding: 1em;
     }
-
-    /* Ajusta o estilo dos interesses */
     .about__interests {
         display: flex;
         flex-direction: column;
@@ -282,11 +229,7 @@
         text-align: center;
         margin: 0 0 5em 0em;
     }
-    .about__interests__title {
-        margin: 0.5em;
-        font-size: 24px;
-        padding: 0;
-    }
+
     .interests-box__container {
         display: flex;
         flex-wrap: wrap;
@@ -301,21 +244,17 @@
     .interests-box {
         width: 10em;
         height: 5em;
-        color: var(--cor-primaria);
-        border-radius: 1em;
-        box-shadow: var(--shadow-highlight);
-        margin: 1em;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .interests-box i {
         font-size: 2em;
     }
     .interests {
         font-size: 14px;
-        margin: 0;
         color: var(--cor-branco);
     }
 

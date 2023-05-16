@@ -8,37 +8,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
-
-
-/*  --cor-bg-primaria: #1b1b20;
-    --cor-bg-secundaria: #212124;
-    --cor-bg-secundaria: #10101A;
- */
-
 :root{
+    /* Colors */
     --cor-bg-primaria:  #0C0C14;
     --cor-bg-secundaria: #12121e;
-    
-    /* --cor-primaria: #009688; */
     --cor-primaria: #7ca8dd;
     --cor-secundaria: #e7e7e7 ;
-
     --cor-text: #5c6d7e;
-    /* --cor-hover: #00968738; */
     --cor-hover: #283647;
 
+    /* Fonts */
     --font-principal: 'Ubuntu', sans-serif;
     --font-secundaria: 'Ubuntu', sans-serif;
- 
+
+    /* Shadows */
     --shadow-highlight: 0px 3px 4px var(--cor-primaria); 
     --shadow-button: 0px 2px 10px rgba(0, 0, 0, 0.6); 
     --shadow-img: 0px 0px 12px var(--cor-primaria); 
     --shadow-hover: 0px 0px 5px var(--cor-primaria); 
 
+    /* Swiper */
     --swiper-navigation-color: var(--cor-primaria);
     --swiper-pagination-color: var(--cor-primaria);
 }
-
 
 *{
     margin: 0;
