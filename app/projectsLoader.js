@@ -35,8 +35,7 @@ function initializeSwiper() {
     });
   }
   
-  let projects = [];
-  const endPointAPI = 'app/projects.json';
+  const endPointAPI = 'app/app-json/projects.json';
   fetchProjects();
   
   async function fetchProjects() {

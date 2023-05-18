@@ -16,7 +16,12 @@
       "image": "./assets/alurabook.png",
       "link": "https://github.com/christianduhp/AluraBook",
       "tags": ["HTML", "CSS", "JavaScript"]
-    }
-
+    },
+    {
+        "title": "Lista de viagem",
+        "image": "./assets/listaViagem.png",
+        "link": "https://christianduhp.github.io/lista_de_viagem",
+        "tags": ["HTML", "CSS", "JavaScript"]
+      }
   ]
   

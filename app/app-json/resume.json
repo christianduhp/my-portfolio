@@ -1,0 +1,41 @@
+{
+    "experience" : [
+    {
+      "company": "TIM S.A.",
+      "date": "2022 - <i class='fas fa-history'></i>",
+      "description": "I am currently an intern, where I manage and plan IT projects, learn about best IT practices and agile methodologies, and work with experienced professionals. It is an enriching experience, and I am excited to continue developing my skills in this role."
+    },
+    {
+      "company": "Depósito Primos",
+      "date": "2018 - 2022",
+      "description": "My responsibilities included managing invoices, updating the sales and website systems. Additionally, I created several programs in Python and VBA to assist with day-to-day tasks."
+    }
+  ],
+  "education": [
+    {
+      "university": "Centro Universitário - FAM",
+      "date": "2020 - <i class='fas fa-history'></i>",
+      "description": "I am a computer engineering student, currently pursuing my degree in the field. I am excited about the potential impact that my work can have on society and am dedicated to continuously learning and growing as a computer engineer."
+    },
+    {
+      "university": "Alura - JavaScript",
+      "date": "2023",
+      "description": "I completed an intensive course on JavaScript, which taught me how to build interactive and dynamic web applications. This program provided me with a strong foundation in JavaScript and the ability to work with APIs, enabling me to create applications that can consume data from external sources. I am confident in my ability to use JavaScript to develop engaging and responsive web applications."
+    },
+    {
+      "university": "Alura - HTML & CSS",
+      "date": "2023",
+      "description": "I have completed an intensive course in HTML and CSS for web projects, equipping me with the necessary skills to design and develop engaging, responsive web pages. I am confident in my ability to create web pages that cater to user needs and enhance the overall user experience."
+    },
+    {
+      "university": "Alura - Python and Object-Oriented",
+      "date": "2022 - 2023",
+      "description": "I have completed a comprehensive course in Python and Object-Oriented Programming through Alura. This program equipped me with the necessary knowledge and skills to develop complex applications using Python and object-oriented programming principles. Through this experience, I gained a deeper understanding of programming concepts and techniques and feel confident in my ability to apply these skills to real-world scenarios."
+    },
+    {
+      "university": "Stafford International School",
+      "date": "2020",
+      "description": "I had the opportunity to study abroad in Canada, where I achieved proficiency in English through immersion in the language and culture. It was a transformative experience that allowed me to not only improve my language skills but also broaden my understanding of different perspectives and ways of life. This experience has given me the confidence to communicate effectively in English and has prepared me to work in a global environment."
+    }
+  ]
+}
