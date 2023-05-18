@@ -1,180 +1,180 @@
 /* Container do portfólio */
 .portfolio__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: var(--cor-bg-secundaria);
-  }
-  
-  /* Configuração do swiper */
-  .swiper {
-    width: 70em;
-  }
-  .portfolio__swiper, .portfolio__swiper h3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--cor-bg-secundaria);
+}
 
-  }
+/* Configuração do swiper */
+.swiper {
+  width: 70em;
+}
 
-  .portfolio__swiper h3{
-    margin-bottom: 1em;
-    font-size: 24px;
-    color: var(--cor-primaria)
-  }
-  /* Slide do swiper */
-  .swiper-slide {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    background-color: var(--cor-bg-primaria);
-    padding-bottom: 2em;
-    border-radius: 2em;
-    margin-bottom: 3em;
-  }
-  
-  /* Título do swiper */
-  .swiper__titulo {
-    margin-bottom: 1em;
-    font-size: 30px;
-  }
-  
-  /* Título do slide */
-  .swiper-slide__title {
-    font-size: 20px;
-    margin: 10px;
-    color: var(--cor-primaria);
-  }
-  
-  /* Imagem do slide */
+.portfolio__swiper,
+.portfolio__swiper h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  
-  /* Tags do slide */
-  .swiper-slide__tags {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* Tag do slide */
-  .swiper-slide__tag {
-    list-style: none;
-    margin: 0.5em;
-    background-color: var(--cor-bg-secundaria);
-    border-radius: 5px;
-    padding: 5px;
-  }
-  
-  /* Ícone da tag */
-  .swiper-slide__tag i {
-    margin-right: 5px;
-    color: var(--cor-primaria);
-  }
-  
-  /* Container de informações do slide */
-  .swiper__info__container {
-    width: 100%;
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Efeito de hover no slide */
-  .swiper-slide:hover {
-    box-shadow: var(--shadow-hover);
-  }
-  
-  /* Configuração da imagem e do see more */
-  .img__and__see-more {
-    position: relative;
-    margin-bottom: 1em;
-  }
-  
-  .swiper__img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .swiper-slide__see-more {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 1em 3em;
-    background-color:var(--cor-primaria);
-    color: var(--cor-branco);
-    text-decoration: none;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  /* Efeito de hover no see more */
-  .img__and__see-more:hover .swiper-slide__see-more {
-    opacity: 1;
-  }
+}
+
+.portfolio__swiper h3 {
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: var(--cor-primaria)
+}
+
+/* Slide do swiper */
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-color: var(--cor-bg-primaria);
+  padding-bottom: 2em;
+  border-radius: 2em;
+  margin-bottom: 3em;
+}
+
+/* Título do swiper */
+.swiper__titulo {
+  margin-bottom: 1em;
+  font-size: 30px;
+}
+
+/* Título do slide */
+.swiper-slide__title {
+  font-size: 20px;
+  margin: 10px;
+  color: var(--cor-primaria);
+}
+
+/* Imagem do slide */
+
+
+/* Tags do slide */
+.swiper-slide__tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tag do slide */
+.swiper-slide__tag {
+  list-style: none;
+  margin: 0.5em;
+  background-color: var(--cor-bg-secundaria);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* Ícone da tag */
+.swiper-slide__tag i {
+  margin-right: 5px;
+  color: var(--cor-primaria);
+}
+
+/* Container de informações do slide */
+.swiper__info__container {
+  width: 100%;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Efeito de hover no slide */
+.swiper-slide:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+/* Configuração da imagem e do see more */
+.img__and__see-more {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.swiper__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide__see-more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1em 3em;
+  background-color: var(--cor-primaria);
+  color: var(--cor-branco);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Efeito de hover no see more */
+.img__and__see-more:hover .swiper-slide__see-more {
+  opacity: 1;
+}
 
 /* Responsividade - Mobile */
 @media screen and (max-width: 749px) {
 
-    .portfolio__swiper,
-    .swiper__container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .swiper__container h3 {
-      font-size: 1.2em;
-      margin: 0.5em 1.5em;
-      text-align: center;
-     
-    }
-
-    .swiper {
-      min-width: 15em;
-      max-width: 22em;
-      margin: 2em 0em
-    }
-
-    .swiper-slide {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 1em;
-      margin: 2em 0;
-    }
+  .portfolio__swiper,
+  .swiper__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  
-  /* Responsividade - Tablets */
-  @media screen and (min-width: 750px) and (max-width: 1024px) {
-
-    .portfolio__swiper,
-    .swiper__container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .swiper__container h3 {
-      font-size: 1.2em;
-      margin: 0.5em 1.5em;
-      text-align: center;
-     
-    }
-
-    .swiper {
-      min-width: 50em;
-      max-width: 60em;
-      margin: 2em 0;
-
-    }
-
-
-
+  .swiper__container h3 {
+    font-size: 1.2em;
+    margin: 0.5em 1.5em;
+    text-align: center;
 
   }
+
+  .swiper {
+    min-width: 15em;
+    max-width: 22em;
+    margin: 2em 0em
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1em;
+    margin: 2em 0;
+  }
+}
+
+
+/* Responsividade - Tablets */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+
+  .portfolio__swiper,
+  .swiper__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .swiper__container h3 {
+    font-size: 1.2em;
+    margin: 0.5em 1.5em;
+    text-align: center;
+
+  }
+
+  .swiper {
+    min-width: 50em;
+    max-width: 60em;
+    margin: 2em 0;
+
+  }
+
+}

@@ -51,6 +51,6 @@ html, body{
 @media screen and (max-width: 1024px) {
 
     html, body{ 
-        overflow:visible;
+        overflow-y:visible;
     }
 }

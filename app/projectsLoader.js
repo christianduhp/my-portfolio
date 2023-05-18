@@ -59,7 +59,7 @@ function initializeSwiper() {
            <div class="swiper__info__container">
              <h3 class="swiper-slide__title">${project.title}</h3>
              <ul class="swiper-slide__tags">
-               ${project.tags.map(tag => `<li class="swiper-slide__tag"><i class="fab fa-html5"></i> ${tag}</li>`).join('')}
+               ${project.tags.map(tag => `<li class="swiper-slide__tag"> ${tag}</li>`).join('')}
              </ul>
            </div>
          </div>`;

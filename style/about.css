@@ -26,8 +26,11 @@
     font-size: 20px;
 }
 
-.about__paragraph__strong {
+
+.about__paragraph__strong,
+.about__paragraph__strong__link {
     color: var(--cor-primaria);
+    text-decoration: none;
 }
 
 .about__paragraph {
