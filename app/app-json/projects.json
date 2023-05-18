@@ -1,27 +1,48 @@
 [
-    {
-      "title": "Robotron",
-      "image": "./assets/robotron.png",
-      "link": "https://github.com/christianduhp/robotron",
-      "tags": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      "title": "Calculadora para construção civil",
-      "image": "./assets/calculadora.png",
-      "link": "https://github.com/christianduhp/calculadora-laje-forro",
-      "tags": ["Python"]
-    },
-    {
-      "title": "Alurabooks",
-      "image": "./assets/alurabook.png",
-      "link": "https://github.com/christianduhp/AluraBook",
-      "tags": ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        "title": "Lista de viagem",
-        "image": "./assets/listaViagem.png",
-        "link": "https://christianduhp.github.io/lista_de_viagem",
-        "tags": ["HTML", "CSS", "JavaScript"]
-      }
-  ]
-  
+  {
+    "title": "Robotron",
+    "image": "./assets/robotron.png",
+    "link": "https://github.com/christianduhp/robotron",
+    "tags": [
+      "<i class='fab fa-html5'></i> HTML",
+      "<i class='fab fa-css3-alt'></i> CSS",
+      "<i class='fab fa-js-square'></i> JavaScript"
+    ]
+  },
+  {
+    "title": "Calculadora para construção civil",
+    "image": "./assets/calculadora.png",
+    "link": "https://github.com/christianduhp/calculadora-laje-forro",
+    "tags": [
+      "<i class='fab fa-python'></i> Python"
+    ]
+  },
+  {
+    "title": "Alurabooks",
+    "image": "./assets/alurabook.png",
+    "link": "https://github.com/christianduhp/AluraBook",
+    "tags": [
+      "<i class='fab fa-html5'></i> HTML",
+      "<i class='fab fa-css3-alt'></i> CSS",
+      "<i class='fab fa-js-square'></i> JavaScript"
+    ]
+  },
+  {
+    "title": "Lista de viagem",
+    "image": "./assets/listaViagem.png",
+    "link": "mailto:christianoliver2010@gmail.com?subject=Interesse%20em%20comprar%20seu%20projeto&body=Olá,%0D%0A%0D%0AEu%20estou%20interessado%20em%20comprar%20seu%20projeto%20da%20estante%20de%20livros%20em%20VBA%20Excel.%20Por%20favor,%20forneça%20mais%20informações%20sobre%20os%20detalhes,%20preço%20e%20disponibilidade.%0D%0A%0D%0AAtenciosamente,%0D%0A[Seu%20nome%20aqui]",
+    "tags": [
+      "<i class='fab fa-html5'></i> HTML",
+      "<i class='fab fa-css3-alt'></i> CSS",
+      "<i class='fab fa-js-square'></i> JavaScript"
+    ]
+  },
+  {
+    "title": "Estante de Livros",
+    "image": "./assets/bookshelf.png",
+    "link": "mailto:christianoliver2010@gmail.com",
+    "tags": [
+      "<i class='fas fa-file-excel'></i> Excel VBA"
+    ]
+  }
+]
