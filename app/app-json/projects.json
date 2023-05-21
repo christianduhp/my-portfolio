@@ -1,5 +1,15 @@
 [
   {
+    "title": "AluraPlay",
+    "image": "./assets/aluraplay.png",
+    "link": "https://github.com/christianduhp/aluraplay",
+    "tags": [
+      "<i class='fab fa-html5'></i> HTML",
+      "<i class='fab fa-css3-alt'></i> CSS",
+      "<i class='fab fa-js-square'></i> JavaScript"
+    ]
+  },
+  {
     "title": "Robotron",
     "image": "./assets/robotron.png",
     "link": "https://github.com/christianduhp/robotron",
