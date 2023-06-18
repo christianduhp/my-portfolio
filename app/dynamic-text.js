@@ -5,7 +5,7 @@ function handleElementMouseOver(elementSelector, textElementSelector, titleEleme
   const defaultText = textElement.innerHTML;
   const defaultTitle = titleElement.innerHTML;
 
-  fetch('app/data.json')
+
   fetch('app/app-json/about.json')
     .then(response => response.json())
     .then(data => {
