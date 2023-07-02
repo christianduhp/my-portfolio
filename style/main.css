@@ -17,9 +17,9 @@
 
 .header__menu__link {
   font-size: 14px;
-  font-family: var(--font-secundaria);
+  font-family: var(--primary-font);
   font-weight: 600;
-  color: var(--cor-primaria);
+  color: var(--primary-color);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -34,13 +34,13 @@
 
 .main__container__title {
   font-size: 3rem;
-  font-family: var(--font-principal);
+  font-family: var(--primary-font);
   text-align: center;
   margin-top: 1em;
 }
 
 .title-constract {
-  color: var(--cor-primaria);
+  color: var(--primary-color);
   font-size: 2rem;
 }
 
@@ -63,10 +63,10 @@
   border-radius: 100%;
   font-size: 1.5rem;
   padding: 0.5em;
-  color: var(--cor-primaria);
+  color: var(--primary-color);
   text-decoration: none;
   box-shadow: var(--shadow-button);
-  outline: 2px solid var(--cor-primaria);
+  outline: 2px solid var(--primary-color);
 }
 
 .links__header:is(:hover, :focus) {
@@ -133,12 +133,12 @@
     gap: 0;
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-bg-secundaria);
+    background-color: var(--secondary-bg-color);
     min-height: 92vh;
   }
 
   .header-mobile__checkbox:checked + .header-mobile__label {
-    background-color: var(--cor-bg-secundaria);
+    background-color: var(--secondary-bg-color);
   }
 
   .header__menu__link {
@@ -163,7 +163,7 @@
 
   .main__container__title {
     font-size: 2em;
-    font-family: var(--font-principal);
+    font-family: var(--primary-font);
     text-align: center;
     margin-top: 1em;
   }
@@ -224,12 +224,12 @@
     gap: 0;
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-bg-secundaria);
+    background-color: var(--secondary-bg-color);
     min-height: 92vh;
   }
 
   .header-mobile__checkbox:checked + .header-mobile__label {
-    background-color: var(--cor-bg-secundaria);
+    background-color: var(--secondary-bg-color);
   }
 
   .header__menu__link {

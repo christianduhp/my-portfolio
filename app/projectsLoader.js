@@ -69,8 +69,8 @@ function showProjectsOnPage(projectsList) {
     const tags = project.tags || [];
 
     const tagsHTML = tags.map(tag => {
-      const iconClass = getIconClass(tag);
-      return `<li class="swiper-slide__tag"><i class="${iconClass}"></i> ${tag}</li>`;
+      const icon = getIcon(tag);
+      return `<li class="swiper-slide__tag"><i class="${icon}"></i> ${tag}</li>`;
     }).join('');
 
     swiperWrapper.innerHTML +=
@@ -91,25 +91,18 @@ function showProjectsOnPage(projectsList) {
   });
 }
 
-function getIconClass(tag) {
-  if (tag.includes('HTML')) {
-    return 'fab fa-html5';
-  }
-  if (tag.includes('CSS')) {
-    return 'fab fa-css3-alt';
-  }
-  if (tag.includes('JavaScript')) {
-    return 'fab fa-js-square';
-  }
-  if (tag.includes('Python')) {
-    return 'fab fa-python';
-  }
-  if (tag.includes('Excel VBA')) {
-    return 'fas fa-file-excel';
-  }
+function getIcon(tag) {
+  const tagMap = {
+    HTML: 'fab fa-html5',
+    CSS: 'fab fa-css3-alt',
+    JavaScript: 'fab fa-js-square',
+    Python: 'fab fa-python',
+    'Excel VBA': 'fas fa-file-excel'
+  };
 
-  return ''; // Caso nenhuma classe de ícone seja encontrada
+  return tagMap[tag] || '';
 }
+
 
 fetchProjects().then(() => {
   showProjectsOnPage(projects);

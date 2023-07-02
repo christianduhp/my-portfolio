@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cor-bg-secundaria);
+    background-color: var(--secondary-bg-color);
 }
 
 .about__container {
@@ -29,7 +29,7 @@
 
 .about__paragraph__strong,
 .about__paragraph__strong__link {
-    color: var(--cor-primaria);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@
     width: 25%;
     padding: 10px;
     text-align: center;
-    color: var(--cor-primaria);
+    color: var(--primary-color);
     border-radius: 1em;
     box-shadow: var(--shadow-highlight);
     margin: 1em;
@@ -77,11 +77,11 @@
     display: flex;
     align-items: center;
     border-radius: 1em;
-    border: 1.5px solid var(--cor-primaria);
+    border: 1.5px solid var(--primary-color);
     box-shadow: var(--shadow-button);
     font-size: 1.5rem;
     padding: 0.5em 1em;
-    color: var(--cor-primaria);
+    color: var(--primary-color);
     text-decoration: none;
     gap: 1em;
     margin: 1em 0em;
@@ -97,7 +97,7 @@
 }
 
 .interests-box:hover {
-    background-color: var(--cor-hover);
+    background-color: var(--hover-color);
     transition: all 0.4s ease-in-out;
 }
 

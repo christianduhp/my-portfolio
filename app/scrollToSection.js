@@ -1,9 +1,13 @@
+let currentSectionIndex = 0; // Index of the current section
+let scrolling = false; // Flag to check if scrolling is in progress
+const duration = 600; // Duration of the animation in milliseconds
+
+// Function to scroll to the next section
 function scrollToSection(sectionId) {
-  if (window.innerWidth >= 1024) { // Defina a largura mínima da tela em que o código deve funcionar
+  if (window.innerWidth >= 1024) { // Check if the window width is greater than or equal to 1024
     const section = document.querySelector(sectionId);
     const start = window.pageYOffset;
-    const end = section.offsetTop;
-    const duration = 800; // Defina a duração da animação em milissegundos
+    const end = section.offsetTop;    
     let startTime = null;
 
     function animate(currentTime) {
@@ -20,7 +24,7 @@ function scrollToSection(sectionId) {
     }
 
     function easing(t) {
-      // Use uma função de easing de sua escolha, por exemplo: easeInOutCubic
+      // Easing function to control the animation speed
       return t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
     }
 
@@ -28,39 +32,38 @@ function scrollToSection(sectionId) {
   }
 }
 
-  
-  // Evento de rolagem do mouse
-  let currentSectionIndex = 0; // Índice da seção atual
-  const scaleFactor = 100; // Fator de escala para ajustar a sensibilidade
-  
-  window.addEventListener('wheel', function(event) {
-  
-    // // Ajusta a sensibilidade da rolagem
-    // window.scrollBy(0, scaleFactor);
-
-    // Detecta se a rolagem foi para cima ou para baixo
+// Mouse scroll event
+window.addEventListener('wheel', function(event) {
+  if (!scrolling) { // Check if scrolling is not already in progress
+    scrolling = true;
+    // Detect whether the scroll was up or down
     const direction = event.deltaY > 0 ? 'down' : 'up';
-  
-    // Obtém as seções
+
+    // Get the sections
     const sections = document.querySelectorAll('.section');
-  
-    // Calcula o índice da próxima ou anterior seção
+
+    // Calculate the index of the next or previous section
     let nextIndex;
     if (direction === 'down') {
       nextIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
     } else {
       nextIndex = Math.max(currentSectionIndex - 1, 0);
     }
-  
-    // Obtém o ID da próxima ou anterior seção
-    const nextSectionId = '#' + sections[nextIndex].id;
-  
-    // Rola para a próxima ou anterior seção
-    scrollToSection(nextSectionId);
-  
-    // Atualiza o índice da seção atual
-    currentSectionIndex = nextIndex;
-  
 
-  });
-  
+    // Get the ID of the next or previous section
+    const nextSectionId = '#' + sections[nextIndex].id;
+
+    // Scroll to the next or previous section
+    scrollToSection(nextSectionId);
+
+    // Update the index of the current section
+    currentSectionIndex = nextIndex;
+
+    // Wait for an interval to enable scrolling again
+    setTimeout(function() {
+      scrolling = false;
+    }, duration); // Set the duration of the animation plus an interval to prevent fast scrolls
+
+    event.preventDefault();
+  }
+});

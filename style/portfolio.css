@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: var(--cor-bg-secundaria);
+  background-color: var(--secondary-bg-color);
 }
 
 /* Configuração do swiper */
@@ -17,13 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .portfolio__swiper h3 {
   margin-bottom: 1em;
   font-size: 24px;
-  color: var(--cor-primaria)
+  color: var(--primary-color)
 }
 
 /* Slide do swiper */
@@ -31,10 +30,11 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  background-color: var(--cor-bg-primaria);
+  background-color: var(--primary-bg-color);
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
   padding-bottom: 2em;
-  border-radius: 2em;
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 
 /* Título do swiper */
@@ -47,11 +47,8 @@
 .swiper-slide__title {
   font-size: 20px;
   margin: 10px;
-  color: var(--cor-primaria);
+  color: var(--primary-color);
 }
-
-/* Imagem do slide */
-
 
 /* Tags do slide */
 .swiper-slide__tags {
@@ -64,7 +61,7 @@
 .swiper-slide__tag {
   list-style: none;
   margin: 0.5em;
-  background-color: var(--cor-bg-secundaria);
+  background-color: var(--secondary-bg-color);
   border-radius: 5px;
   padding: 5px;
 }
@@ -72,7 +69,7 @@
 /* Ícone da tag */
 .swiper-slide__tag i {
   margin-right: 5px;
-  color: var(--cor-primaria);
+  color: var(--primary-color);
 }
 
 /* Container de informações do slide */
@@ -101,12 +98,12 @@
   height: auto;
 }
 
-.swiper-slide__see-more {
+.swiper-slide__see-more { 
   position: absolute;
   bottom: 0;
   right: 0;
   padding: 1em 3em;
-  background-color: var(--cor-primaria);
+  background-color: var(--primary-color);
   color: var(--cor-branco);
   text-decoration: none;
   opacity: 0;
