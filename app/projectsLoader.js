@@ -78,7 +78,7 @@ function showProjectsOnPage(projectsList) {
          <a target="_blank" href="${project.link}">
            <div class="img__and__see-more">
              <img class="swiper__img" src="https://drive.google.com/uc?id=${project.image}" alt="${project.title}">
-             <a target="_blank" href="${project.link}" class="swiper-slide__see-more">See more</a>
+             <a target="_blank" href="${project.link}" class="swiper-slide__see-more">Ver mais</a>
            </div>
          </a>
          <div class="swiper__info__container">
@@ -97,12 +97,20 @@ function getIcon(tag) {
     CSS: 'fab fa-css3-alt',
     JavaScript: 'fab fa-js-square',
     Python: 'fab fa-python',
-    'Excel VBA': 'fas fa-file-excel'
-  };
+    'Excel VBA': 'fas fa-file-excel',
+    Raact: 'fa-brands fa-react',
+    Angular: 'fa-brands fa-angular',
+    Bootstrap: 'fa-brands fa-bootstrap',
+    'Vue.js': 'fa-brands fa-vuejs',
+    Docker: 'fa-brands fa-docker',
+    Code: 'fa-solid fa-code',
+    Java: 'fa-brands fa-java',
+    NodeJS: 'fa-brands fa-node-js',
+    'Machine Learning': 'fa-solid fa-robot',
+  };    
 
   return tagMap[tag] || '';
 }
-
 
 fetchProjects().then(() => {
   showProjectsOnPage(projects);

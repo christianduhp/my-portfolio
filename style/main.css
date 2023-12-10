@@ -1,18 +1,20 @@
 .header {
   display: flex;
-  padding: 1% 4% 0% 0%;
-  justify-content: end;
+  justify-content: center;
+  padding: 2em 0 0 0;
+  position: absolute;
+  width: 100%;
 }
 
 .header__menu {
   display: flex;
-  gap: 80px;
+  gap: 5em;
 }
 
 .main__imagem {
   width: 20%;
-  border-radius: 50%;
-  box-shadow: var(--shadow-highlight);
+  border-radius: 100%;
+  box-shadow: 0px 3px 4px var(--primary-color);
 }
 
 .header__menu__link {
@@ -37,6 +39,7 @@
   font-family: var(--primary-font);
   text-align: center;
   margin-top: 1em;
+  font-weight: bold;
 }
 
 .title-constract {
@@ -84,7 +87,6 @@
 
 /* Responsividade - Mobile */
 @media screen and (max-width: 749px) {
-  /* Header */
   .header {
     position: absolute;
     justify-content: flex-start;
@@ -175,7 +177,6 @@
 
 /* Responsividade - Tablets */
 @media screen and (min-width: 750px) and (max-width: 1024px) {
-  /* Header */
   .header {
     position: absolute;
     justify-content: flex-start;
@@ -239,7 +240,6 @@
     width: 8em;
   }
 
-  /* Main */
   .main__container__all {
     justify-content: center;
     gap: 1em;

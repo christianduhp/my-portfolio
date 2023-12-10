@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "title": "Python",
+      "text": "Python foi a primeira linguagem que aprendi e despertou minha paixão pela programação. Desenvolvi habilidades em Python através de estudos, incluindo cursos especializado em <span class='highlight'>Programação Orientada a Objetos</span>. <br><br> Além disso, realizei diversos projetos envolvendo <span class='highlight'>manipulação de dados, machine learning e técnicas de automação.</span> <br><br> Você pode explorar projetos que demonstram minha experiência em Python em meu portfólio."
+    },
+    {
+      "title": "Machine Learning",
+      "text": "Machine Learning é uma área fascinante que explorei intensamente em meus projetos. <br><br> Nos cursos, aprofundei em <span class='highlight'>Deep Learning</span> com Keras, análise de sentimento em <span class='highlight'>NLP</span>, <span class='highlight'>Word2Vec</span> para classificação de artigos e até reconhecimento facial com <span class='highlight'>OpenCV.</span> <br><br> Tenho experiência em frameworks como <span class='highlight'>TensorFlow</span> e <span class='highlight'>scikit-learn</span>, utilizando dados para treinar modelos e alcançar resultados precisos, além de disponibilizar modelos em <span class='highlight'>API</span>."
+    },
+    {
+      "title": "GitHub",
+      "text": "GitHub é uma ferramenta fundamental em meu fluxo de trabalho. Utilizo o GitHub para colaboração eficiente, controle de versão e revisão de código. <br><br> Meus repositórios refletem projetos significativos e contribuições para a comunidade. <br><br> Convido você a explorar meu perfil no GitHub para ter uma visão mais detalhada de meus projetos e contribuições."
+    },
+    {
+      "title": "JavaScript",
+      "text": "JavaScript faz parte da minha jornada de desenvolvimento web. <br><br> Adquiri uma compreensão profunda de sua versatilidade e aplicações práticas. Minha proficiência se estende à manipulação do <span class='highlight'>Document Object Model (DOM)</span>, utilização do <span class='highlight'>local storage</span>, integração com <span class='highlight'>APIs</span> e manipulação hábil de <span class='highlight'>JSON</span>. <br><br> Explore meu portfólio para ver uma coleção de aplicações web dinâmicas e interativas que destacam meu uso eficaz de JavaScript."    
+    },
+    {
+      "title": "HTML5",
+      "text": "HTML forma a base do desenvolvimento web. <br><br> Com expertise em tags semânticas do HTML5, criei páginas web bem estruturada, priorizando acessibilidade e otimização para mecanismos de busca. <br><br> Você pode explorar projetos que demonstram minha experiência na combinação de HTML e CSS em meu portfólio."
+    },
+    {
+      "title": "CSS3",
+      "text": "CSS é uma ferramenta poderosa que não apenas me permite transformar páginas web HTML estáticas, mas também criar experiências visualmente impressionantes e <span class='highlight'>responsivas</span>. <br><br> Ao aderir à abordagem <span class='highlight'>mobile-first</span>, priorizo o desenvolvimento de sites totalmente otimizados para dispositivos móveis. <br><br> Além disso, meus projetos no portfólio exemplificam minha proficiência em utilizar o CSS3 para criar interfaces esteticamente agradáveis e amigáveis ao usuário."
+    },
+    {
+      "title": "C++",
+      "text": "C++ foi minha linguagem de escolha para abordar <span class='highlight'>projetos eletrônicos</span>, especialmente em conjunto com <span class='highlight'>Arduino</span>. Através desses projetos, adquiri habilidades em programação C++ e desenvolvi uma compreensão profunda de sua aplicação em sistemas embarcados. <br><br> Projetos notáveis incluem a criação de um sistema de semáforo e um jogo de memória, ambos os quais podem ser explorados em minha página do <span class='highlight'> <a class='highlight__link' href='https://www.tinkercad.com/dashboard?collection=designs&type=circuits'>Tinkercad </a></span>."
+    },
+    {
+      "title": "Excel VBA",
+      "text": "Iniciei minha jornada com painéis do Excel, com o objetivo de criar planilhas visualmente atraentes e informativas. <br><br> No entanto, ao aprofundar-me na manipulação de dados, percebi que a codificação VBA poderia levar meu trabalho a um patamar superior. <br><br> Com VBA, adquiri o poder de <span class='highlight'>automatizar processos</span>, aprimorar a funcionalidade e otimizar a <span class='highlight'>gestão de dados</span> no Excel."
+    }
+  ]
+}

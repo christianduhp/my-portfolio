@@ -1,42 +1,45 @@
 {
-    "experience" : [
+  "experience": [
     {
       "company": "TIM S.A.",
       "date": "2022 - <i class='fas fa-history'></i>",
-      "description": "I am currently an intern, where I manage and plan IT projects, learn about best IT practices and agile methodologies, and work with experienced professionals. It is an enriching experience, and I am excited to continue developing my skills in this role."
+      "description": "Atualmente, como estagiário na TIM, desempenho um papel na gestão e o planejamento de projetos de TI, colaborando de perto com profissionais experientes. Esta experiência tem sido enriquecedora, e mantenho entusiasmo em aprimorar continuamente minhas habilidades neste cargo. Minhas atribuições englobam a implementação de automações de processos, visando aprimorar a eficiência operacional e simplificar tomadas de decisão. Destaco a criação de automações em Python, otimizando a geração de relatórios, e a criação de um sistema de aprovação de demandas, resultando em maior transparência e agilidade no processo. Essa iniciativa contribuiu significativamente para uma gestão mais eficiente."
     },
     {
       "company": "Depósito Primos",
       "date": "2018 - 2022",
-      "description": "My responsibilities included managing invoices, updating the sales and website systems. Additionally, I created several programs in Python and VBA to assist with day-to-day tasks."
+      "description": "Minhas responsabilidades incluíam gerenciar faturas, atualizar os sistemas de vendas e do site. Além disso, criei vários programas em Python e VBA para auxiliar nas tarefas do dia a dia."
     }
   ],
-  
-    "education": [
+  "education": [
     {
       "university": "Centro Universitário - FAM",
       "date": "2020 - <i class='fas fa-history'></i>",
-      "description": "I am a computer engineering student, currently pursuing my degree in the field. I am excited about the potential impact that my work can have on society and am dedicated to continuously learning and growing as a computer engineer."
+      "description": "Sou estudante de engenharia da computação no Centro Universitário - FAM, buscando atualmente meu diploma na área. Estou entusiasmado com o potencial impacto que meu trabalho pode ter na sociedade e dedicado a aprender e crescer continuamente como engenheiro de computação."
     },
+    {
+      "university": "Alura - Machine Learning Avançada",
+      "date": "2023",
+      "description": "Completei uma formação em Machine Learning Avançada, destacando-me em diversos tópicos-chave. No Deep Learning, explorei Keras, compreendi o processo de aprendizado da rede e apliquei previsões. Em Linguagem Natural, abordei análise de sentimentos, regex, modelos de linguagem e Word2Vec para interpretação avançada. No campo de reconhecimento de imagens, utilizei Twitter e Computer Vision API, além de explorar análise e classificação de faces com OpenCV. Essa jornada me equipou com conhecimentos  sólidos e habilidades práticas, preparando-me para desafios complexos em Inteligência Artificial."    },
     {
       "university": "Alura - JavaScript",
       "date": "2023",
-      "description": "I completed an intensive course on JavaScript, which taught me how to build interactive and dynamic web applications. This program provided me with a strong foundation in JavaScript and the ability to work with APIs, enabling me to create applications that can consume data from external sources. I am confident in my ability to use JavaScript to develop engaging and responsive web applications."
+      "description": "Concluí a formação em JavaScript, que me ensinou a construir aplicativos web interativos e dinâmicos. Este programa me proporcionou uma base sólida em JavaScript e a capacidade de trabalhar com APIs, permitindo-me criar aplicativos que consomem dados de fontes externas. Conquistei a habilidade de usar JavaScript para desenvolver aplicativos web envolventes e responsivos."
     },
     {
       "university": "Alura - HTML & CSS",
       "date": "2023",
-      "description": "I have completed an intensive course in HTML and CSS for web projects, equipping me with the necessary skills to design and develop engaging, responsive web pages. I am confident in my ability to create web pages that cater to user needs and enhance the overall user experience."
+      "description": "Concluí uma série de cursos em HTML e CSS para projetos web, adquirindo as habilidades necessárias para projetar e desenvolver páginas web envolventes e responsivas. Adquiri capacidade de criar páginas web que atendam às necessidades do usuário e garantem a experiência geral do usuário."
     },
     {
-      "university": "Alura - Python and Object-Oriented",
+      "university": "Alura - Python e Orientação a Objetos",
       "date": "2022 - 2023",
-      "description": "I have completed a comprehensive course in Python and Object-Oriented Programming through Alura. This program equipped me with the necessary knowledge and skills to develop complex applications using Python and object-oriented programming principles. Through this experience, I gained a deeper understanding of programming concepts and techniques and feel confident in my ability to apply these skills to real-world scenarios."
+      "description": "Concluí a formação em Python e Programação Orientada a Objetos pela Alura. Este programa me capacitou com o conhecimento e as habilidades necessárias para desenvolver aplicativos complexos usando Python e princípios de programação orientada a objetos. Através dessa experiência, adquiri uma compreensão mais profunda de conceitos e técnicas de programação e me sinto confiante em aplicar essas habilidades a cenários do mundo real."
     },
     {
-      "university": "Stafford International School",
+      "university": "Stafford House International",
       "date": "2020",
-      "description": "I had the opportunity to study abroad in Canada, where I achieved proficiency in English through immersion in the language and culture. It was a transformative experience that allowed me to not only improve my language skills but also broaden my understanding of different perspectives and ways of life. This experience has given me the confidence to communicate effectively in English and has prepared me to work in a global environment."
+      "description": "Tive a oportunidade de estudar na Stafford House no Canadá, onde alcancei proficiência em inglês por meio da imersão na língua e cultura. Foi uma experiência transformadora que não apenas aprimorou minhas habilidades linguísticas, mas também ampliou minha compreensão de diferentes perspectivas e modos de vida. Essa experiência me deu a confiança para me comunicar efetivamente em inglês e me preparou para trabalhar em um ambiente global."
     }
   ]
 }

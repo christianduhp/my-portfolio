@@ -1,4 +1,4 @@
-function handleElementMouseOver(elementSelector, textElementSelector, titleElementSelector, arrayName) {
+function handleElementMouseOver(jsonFile, elementSelector, textElementSelector, titleElementSelector, arrayName) {
   const elements = document.querySelectorAll(elementSelector);
   const textElement = document.querySelector(textElementSelector);
   const titleElement = document.querySelector(titleElementSelector);
@@ -6,7 +6,7 @@ function handleElementMouseOver(elementSelector, textElementSelector, titleEleme
   const defaultTitle = titleElement.innerHTML;
 
 
-  fetch('app/app-json/about.json')
+  fetch(jsonFile)
     .then(response => response.json())
     .then(data => {
       const dataArray = data[arrayName];
@@ -25,5 +25,15 @@ function handleElementMouseOver(elementSelector, textElementSelector, titleEleme
     })
     .catch(error => console.error(error));
 }
-handleElementMouseOver('.interests-box', '.about__paragraph', '.about__title', 'interests');
-handleElementMouseOver('.skill__container', '.skill__paragraph', '.skills__title', 'skills');
+
+handleElementMouseOver('app/app-json/about.json', 
+                      '.about-box', 
+                      '.about__paragraph', 
+                      '.about__title', 
+                      'interests');
+
+handleElementMouseOver('app/app-json/skills.json', 
+                      '.skill-box', 
+                      '.skill__paragraph', 
+                      '.skills__title', 
+                      'skills');

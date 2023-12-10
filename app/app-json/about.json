@@ -1,56 +1,25 @@
 {
   "interests": [
     {
-      "title": "Code",
-      "text": "I absolutely love coding! The thrill of creating something out of lines of code never gets old. Whether it's designing a website or developing a new software, the possibilities are endless. I enjoy spending hours solving complex problems and refining my skills to create efficient and <span class='about__paragraph__strong'>elegant code</span>."
+      "title": "Programar",
+      "text": "Eu amo programar! A emoção de criar algo a partir de linhas de código nunca envelhece. Seja projetando um site ou desenvolvendo um novo software, as possibilidades são infinitas. Gosto de passar horas resolvendo problemas complexos e aprimorando minhas habilidades para criar código eficiente e <span class='highlight'>elegante</span>."
     },
     {
-      "title": "Technology",
-      "text": "<span class='about__paragraph__strong'>Technology fascinates me!</span> I'm always interested in learning about the latest advancements and how they can improve our lives. From smartphones to rockets, <span class='about__paragraph__strong'>the possibilities of what technology can achieve are endless</span>. I love exploring new gadgets and finding innovative ways to use them."
+      "title": "Tecnologia",
+      "text": "<span class='highlight'>A tecnologia me fascina!</span> Estou sempre interessado em aprender sobre os últimos avanços e como eles podem melhorar nossas vidas. De smartphones a foguetes, <span class='highlight'>as possibilidades do que a tecnologia pode alcançar são infinitas</span>."
     },
     {
-      "title": "AI",
-      "text": "The potential of AI excites me! From chatbots to autonomous drones, AI is transforming the way we live and work. I'm currently doing a <span class='about__paragraph__strong'>Scientific Initiation</span> about AI in my college, where I am delving deeper into this field and exploring its endless possibilities. I'm eager to learn more and contribute to the <span class='about__paragraph__strong'>advancements in AI technology.</span>"
+      "title": "Inteligência Artificial",
+      "text": "Desde chatbots até drones autônomos, a inteligência artificial está revolucionando nossa forma de viver e trabalhar. Atualmente, participo de um programa de <span class='highlight'>Iniciação Científica</span> voltado para a IA, aprofundando-me nesse campo e explorando suas inúmeras possibilidades. Estou entusiasmado para adquirir mais conhecimento e contribuir para o <span class='highlight'>progresso na tecnologia de IA.</span>"
     },
     {
-      "title": "Science",
-      "text": "I love learning about the <span class='about__paragraph__strong'>mysteries of the universe</span>, from the smallest particles to the largest galaxies. The more we learn about our world, the more we realize how much there is to discover. <span class='about__paragraph__strong'>Carl Sagan</span> is my favorite author. His ability to convey complex scientific concepts in an engaging and accessible way has greatly influenced my love for science. Through his books and writings, I have gained a deeper appreciation for the <span class='about__paragraph__strong'>beauty and vastness of the cosmos</span>."
-    },
+      "title": "Ciência",
+      "text": "Adoro aprender sobre os <span class='highlight'>mistérios do universo</span>, das partículas mais pequenas às galáxias mais distantes.  <span class='highlight'>Carl Sagan</span> é meu autor favorito. Sua capacidade de transmitir conceitos científicos complexos de maneira envolvente e acessível influenciou profundamente meu amor pela ciência. Através de seus livros e escritos, ganhei uma apreciação mais profunda pela <span class='highlight'>beleza do cosmos</span>."    },
     {
-      "title": "Travel",
-      "text": "Exploring <span class='about__paragraph__strong'>different cultures, trying new cuisines, and immersing myself in unfamiliar surroundings is truly exhilarating. </span> From vibrant cityscapes to breathtaking natural wonders, the world offers a myriad of experiences waiting to be discovered. I am constantly seeking new adventures and adding to my travel bucket list, eager to embrace the<span class='about__paragraph__strong'> diverse wonders our planet has to offer.</span>"
-    },
+      "title": "Viajar",
+      "text": "Explorar <span class='highlight'>diferentes culturas, experimentar novas cozinhas e me imergir em ambientes desconhecidos sempre me fascinou. </span> Estou constantemente em busca de novas aventuras e adicionando à minha lista de viagens, ansioso para abraçar as <span class='highlight'>diversas maravilhas que nosso planeta tem a oferecer.</span>"    },
     {
-      "title": "Movies",
-      "text":  "I'm an avid movie enthusiast, and <span class='about__paragraph__strong'>science fiction</span> holds a special place in my heart. From epic space odysseys to mind-bending explorations of the future, I find immense joy in immersing myself in the world of sci-fi films. One of my all-time favorites is <span class='about__paragraph__strong'>'Interstellar'</span>, which beautifully combines gripping storytelling with scientific concepts."
-    }
-  ],
-
-  "skills": [
-    {
-      "title": "Python",
-      "text": "Python was the first programming language I learned, and it ignited my passion for coding. I have developed a comprehensive set of skills in Python through various learning resources, including a specialized course in Python and <span class='about__paragraph__strong'>Object-Oriented Programming</span>. <br><br> With a strong foundation in Python, I have done some projects with <span class='about__paragraph__strong'>data manipulation, machine learning, and automation techniques.</span> <br><br> One of my notable achievements includes developing a slab calculator, a computer program designed to streamline concrete slab calculations for civil construction projects. You can explore this project, along with other examples of my Python expertise, in my portfolio."
-    },
-    {
-      "title": "JavaScript",
-      "text": "JavaScript has played a pivotal role in shaping my web development journey, leaving a mark on my skills and knowledge. While I embarked on studying JavaScript recently, I have quickly developed a profound understanding of this versatile language and its practical implementations. <br><br> Through my exploration, I have gained proficiency in manipulating the <span class='about__paragraph__strong'>Document Object Model (DOM)</span>, harnessing the power of <span class='about__paragraph__strong'>local storage</span>, effectively integrating with <span class='about__paragraph__strong'>APIs</span>, and skillfully manipulating <span class='about__paragraph__strong'>JSON.</span> <br><br> Feel free to explore my portfolio, which houses a collection of <span class='about__paragraph__strong'>dynamic and interactive web applications</span> I have personally crafted. These projects stand as a testament to my ability to leverage JavaScript effectively, including my adeptness in manipulating JSON and APIs. These skills enable me to create seamless and engaging user experiences by efficiently working with data structures."
-    },
-    {
-      "title": "HTML5",
-      "text": "HTML forms the backbone of web development, and I have honed my skills in crafting well-structured and semantically meaningful web pages. <br><br> With expertise in utilizing HTML5's semantic tags, I have created some web pages that prioritize <span class='about__paragraph__strong'>accessibility and search engine optimization. </span> <br><br> In my current role, I have spearheaded the development of a comprehensive knowledge base using HTML5, along with CSS and JavaScript. This knowledge base serves as a valuable resource for my team, providing easy access to manuals, team responsibilities, and collaborative documentation. <br><br> You can also explore some of my projects at my portfolio."
-    },
-    {
-      "title": "CSS3",
-      "text": "CSS is a powerful tool that not only allows me to transform static HTML web pages but also enables me to create visually stunning and  <span class='about__paragraph__strong'>responsive</span> experiences. With knowledge in CSS3, I possess the ability to craft captivating designs and implement responsive layouts, ensuring optimal user experiences across devices. <br><br>By adhering to the  <span class='about__paragraph__strong'>mobile-first</span> approach, I prioritize the development of websites that are fully optimized for mobile devices.<br><br>Moreover, my portfolio projects exemplify my proficiency in utilizing CSS3 to create aesthetically pleasing and user-friendly interfaces.  I invite you to explore my portfolio section and witness the results of my CSS expertise firsthand."
-    },
-    {
-      "title": "C++",
-      "text": "C++ has been my language of choice for tackling exciting  <span class='about__paragraph__strong'>electronic projects</span>, particularly in conjunction with  <span class='about__paragraph__strong'>Arduino</span>. Through these endeavors, I have gained skills in C++ programming and developed a deep understanding of its application in embedded systems.<br><br> Noteworthy projects include the creation of a traffic light system and a memory game, both of which can be explored on my <span class='about__paragraph__strong'> <a class='about__paragraph__strong__link'href='https://www.tinkercad.com/dashboard?collection=designs&type=circuits'>Tinkercad </a></span>page. <br><br>These experiences have sharpened my problem-solving abilities and expanded my knowledge of  <span class='about__paragraph__strong'>hardware programming</span> with C++. "
-    },
-    {
-      "title": "Excel VBA",
-      "text": "I began my journey with Excel dashboards, aiming to create visually appealing and informative spreadsheets. However, as I delved deeper into the realm of data manipulation, I realized that VBA coding could take my work to the next level. With VBA, I gained the power to  <span class='about__paragraph__strong'>automate processes</span>, enhance functionality, and streamline  <span class='about__paragraph__strong'>data management</span> in Excel. <br><br> One notable achievement was the creation the form integrated with  <span class='about__paragraph__strong'>SharePoint through an API</span>, I improved data collection, collaboration, and accessibility. <br><br> Additionally, VBA coding empowered me to automate processes, enhance data manipulation capabilities, and create interactive visualizations."
-    }
+      "title": "Filmes",
+      "text":  "A <span class='highlight'>ficção científica</span> tem um lugar especial em meu coração. Um dos meus favoritos é <span class='highlight'>'Interstellar'</span>, que combina lindamente uma narrativa envolvente com conceitos científicos."    }
   ]
-  
 }
