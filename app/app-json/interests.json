@@ -1,0 +1,34 @@
+{
+  "interests": [
+    {
+      "title": "Programação",
+      "icon": "fas fa-code",
+      "text": "Eu amo programar! A emoção de criar algo a partir de linhas de código nunca envelhece. Seja projetando um site ou desenvolvendo um novo software, as possibilidades são infinitas. Gosto de passar horas resolvendo problemas complexos e aprimorando minhas habilidades para criar código <span class='highlight'>eficiente e elegante</span>."
+    },
+    {
+      "title": "Tecnologia",
+      "icon": "fas fa-rocket",
+      "text": "<span class='highlight'>A tecnologia me fascina!</span> Estou sempre interessado em aprender sobre os últimos avanços e como eles podem melhorar nossas vidas. De smartphones a foguetes, <span class='highlight'>as possibilidades do que a tecnologia pode alcançar são infinitas</span>."
+    },
+    {
+      "title": "IA",
+      "icon": "fas fa-robot",
+      "text": "De chatbots a carros autônomos, a inteligência artificial está transformando radicalmente nossa maneira de viver e interagir com o mundo. Sou fascinado por esse campo e acredito firmemente que as automações proporcionadas pela IA têm o potencial de tornar a vida humana significativamente mais fácil e eficiente."
+    },
+    {
+      "title": "Ciência",
+      "icon": "fas fa-atom",
+      "text": "Adoro aprender sobre os <span class='highlight'>mistérios do universo</span>, das partículas mais pequenas às galáxias mais distantes.  <span class='highlight'>Carl Sagan</span> é meu autor favorito. Sua capacidade de transmitir conceitos científicos complexos de maneira envolvente e acessível influenciou profundamente meu amor pela ciência. Através de seus livros e escritos, ganhei uma apreciação mais profunda pela <span class='highlight'>beleza do cosmos</span>."
+    },
+    {
+      "title": "Viajar",
+      "icon": "fas fa-plane-departure",
+      "text": "Explorar <span class='highlight'>diferentes culturas, experimentar novas cozinhas e me imergir em ambientes desconhecidos sempre me fascinou. </span> Estou constantemente em busca de novas aventuras e adicionando à minha lista de viagens, ansioso para abraçar as <span class='highlight'>diversas maravilhas que nosso planeta tem a oferecer.</span>"
+    },
+    {
+      "title": "Filmes",
+      "icon": "fas fa-hand-spock",
+      "text":  "A <span class='highlight'>ficção científica</span> tem um lugar especial em meu coração. Um dos meus favoritos é <span class='highlight'>'Interstellar'</span>, que combina lindamente uma narrativa envolvente com conceitos científicos."
+    }
+  ]
+}

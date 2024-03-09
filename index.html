@@ -61,19 +61,22 @@
             </div>
         </section>
 
+
+
         <section class="about__container__all section" id="section2">
             <div class="about__container">
                 <div class="about__text__and__interests">
                     <h2 class="about__title">Sobre mim</h2>
                     <p class="about__paragraph">
-                        <strong class="highlight">Prazer, Christian!</strong>
+                        <strong class="highlight">Olá, meu nome é Christian!</strong>
+                        <br>
 
-                        Atualmente, estou cursando o último ano de <strong class="highlight">Engenharia da
-                            Computação</strong> e sou um entusiasta apaixonado por tecnologia e ciência. Nos meus
-                        momentos livres, dedico-me ao meu crescimento pessoal e profissional, buscando constantemente
-                        oportunidades de aprendizado.
-                        Estou sempre envolvido em projetos que me permitem aprimorar minhas habilidades e conhecimentos
-                        em programação.
+                        Estou cursando o último ano de <strong class="highlight">Engenharia da
+                            Computação</strong> e sou apaixonado por tecnologia e ciência.
+
+
+                        Aqui, você encontrará informações sobre quem sou eu, meus interesses, habilidades e muito mais.
+                        <br>Sinta-se à vontade para explorar e me conhecer melhor!
                     </p>
 
                     <div class="about__interests">
@@ -82,36 +85,10 @@
                             <div>
                                 <h2 class="about__interests__title">Meus interesses</h2>
                                 <div class="interests-box__all">
-                                    <div class="about-box">
+                                    <!-- <div class="about-box">
                                         <i class="fa-solid fa-code"></i>
-                                        <h3 class="interests">Programar</h3>
-                                    </div>
-
-                                    <div class="about-box">
-                                        <i class="fa-solid fa-rocket"></i>
-                                        <h3 class="interests">Tecnologia</h3>
-                                    </div>
-
-                                    <div class="about-box">
-                                        <i class="fa-solid fa-robot"></i>
-                                        <h3 class="interests">IA</h3>
-                                    </div>
-
-                                    <div class="about-box">
-                                        <i class="fa-solid fa-atom"></i>
-                                        <h3 class="interests">Ciência</h3>
-                                    </div>
-
-                                    <div class="about-box">
-                                        <i class="fa-solid fa-plane-departure"></i>
-                                        <h3 class="interests">Viajar</h3>
-                                    </div>
-                                    <div class="about-box">
-                                        <i class="fa-solid fa-hand-spock"></i>
-                                        <h3 class="interests">Filmes</h3>
-                                    </div>
-
-
+                                        <h3 class="interests">Programação</h3>
+                                    </div> -->
                                 </div>
                             </div>
 
@@ -153,7 +130,7 @@
                     <h2 class="skills__title section__title">Skills</h2>
                     <p class="skill__paragraph">
                         Aqui você poderá conhecer um pouco das minhas habilidades em
-                        <strong class="highlight">Python, JavaScript, HTML, CSS, C++</strong> e <strong
+                        <strong class="highlight">Python, JavaScript, HTML & CSS, C++, PHP, Java</strong> e <strong
                             class="highlight">VBA</strong>, além de
                         <strong class="highlight">Github</strong>, é claro!
                         <br><br>
@@ -164,7 +141,7 @@
                         Estou sempre ansioso para enfrentar novos desafios e buscar soluções inovadoras para problemas.
                     </p>
 
-                    <a class="see-my-portfolio" href="#">
+                    <a class="see-my-portfolio" href="#section4">
                         <i class="fas fa-briefcase"></i>
                         Ver projetos
                     </a>
@@ -172,46 +149,12 @@
                 </div>
                 <div class="skill__techincal">
 
-                    <div class="skills__container">
-                        <div class="skill-box">
+                    <div class="skills__container" id="skillsContainer">
+
+                        <!-- <div class="skill-box">
                             <i class="fab fa-python"></i>
                             <h2 class="skill__container__title">Python</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fas fa-robot"></i>
-                            <h2 class="skill__container__title">Machine Learning</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fab fa-github"></i>
-                            <h2 class="skill__container__title">GitHub</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fab fa-js-square"></i>
-                            <h2 class="skill__container__title">JavaScript</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fab fa-html5"></i>
-                            <h2 class="skill__container__title">HTML5</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fab fa-css3-alt"></i>
-                            <h2 class="skill__container__title">CSS3</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fas fa-code"></i>
-                            <h2 class="skill__container__title">C++</h2>
-                        </div>
-
-                        <div class="skill-box">
-                            <i class="fas fa-file-excel"></i>
-                            <h2 class="skill__container__title">Excel VBA</h2>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
@@ -265,16 +208,26 @@
     </main>
 
 
-    <footer class="footer section" id="section6"> © 2023 Christian Oliveira. All Rights Reserved.</footer>
+    <footer class="footer section p-4 text-center fw-semibolder" id="section5">
+        ©&nbsp;<span id="currentYear"></span>&nbsp;Christian Oliveira. All Rights Reserved.
+    </footer>
 
     <script src="app/analytics.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="app/scrollToSection.js"></script>
-    <script src="app/dynamicText.js"></script>
+    <script src="app/interestsLoader.js"></script>
+    <script src="app/skillsLoader.js"></script>
     <script src="app/projectsLoader.js"></script>
     <script src="app/resumeLoader.js"></script>
+    <script src="app/dynamicText.js"></script>
 
+    <script>
+        var currentYearElement = document.getElementById('currentYear');
+        var currentYear = new Date().getFullYear();
+        currentYearElement.textContent = currentYear;
+    </script>
 </body>
+
 
 </html>

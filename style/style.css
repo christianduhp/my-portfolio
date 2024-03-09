@@ -8,58 +8,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 
-:root{
+:root {
     /* Colors */
-    --primary-bg-color:  #0C0C14;
-    --secondary-bg-color: #12121e;
+    --primary-bg-color: #141d29;
+    --secondary-bg-color: #212e41;
     --primary-color: #7ca8dd;
-    --secondary-color: #e7e7e7 ;
-    --text-color: #5c6d7e;
-    --hover-color: #283647;
-    
+    --text-color: #e7e7e7;
+    --hover-color: #2a3c52;
+
     /* Font */
     --primary-font: 'Ubuntu', sans-serif;
 
     /* Shadows */
-    --shadow-highlight: 0px 2px 1px var(--primary-color); 
-    --shadow-button: 0px 2px 10px rgba(0, 0, 0, 0.6); 
-    --shadow-img: 0px 0px 12px var(--primary-color); 
-    --shadow-hover: 0px 0px 5px var(--primary-color); 
+    --shadow-highlight: 0px 2px 1px var(--primary-color);
+    --shadow-button: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    --shadow-img: 0px 0px 12px var(--primary-color);
+    --shadow-hover: 0px 0px 5px var(--primary-color);
 
     /* Swiper */
     --swiper-navigation-color: var(--primary-color);
     --swiper-pagination-color: var(--primary-color);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body{ 
-    box-sizing: border-box; 
+html,
+body {
+    box-sizing: border-box;
     background-color: var(--primary-bg-color);
-    color: var(--secondary-color);
+    color: var(--text-color);
     display: flex;
-    flex-direction: column; 
-    font-family: var( --primary-font);
+    flex-direction: column;
+    font-family: var(--primary-font);
     font-size: large;
     word-wrap: break-word;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .about__title,
 .skills__title,
 .swiper__titulo,
-.resume__title{
+.resume__title {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 38px;
     margin: 1em;
 }
 
 @media screen and (max-width: 1024px) {
 
-    html, body{ 
-        overflow-y:visible;
+    html,
+    body {
+        overflow-y: visible;
     }
 }

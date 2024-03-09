@@ -23,7 +23,6 @@
     text-align: left;
     max-width: 55em;
     height: 3em;
-
 }
 
 .about__container {
@@ -96,7 +95,7 @@
         width: auto;
     }
 
-    .about-box{
+    .about-box {
         width: auto;
         margin: 0;
         padding: 1em 1.5em;
@@ -109,30 +108,30 @@
         text-align: left;
     }
 
-    .about__interests__title{
+    .about__interests__title {
         margin-bottom: 1em;
     }
-    
-    .interests{
+
+    .interests {
         font-size: 14px;
     }
 
     .interests-box__all,
-    .information-box__all{
+    .information-box__all {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-      
+
     }
 
 }
 
 /* Responsividade - Tablets */
 @media screen and (min-width: 750px) and (max-width: 1024px) {
-    .about-box{
+    .about-box {
         width: auto;
         margin: 0;
-        padding: 1em;   
+        padding: 1em;
     }
 
     .about__paragraph {
@@ -142,20 +141,20 @@
         text-align: left;
     }
 
-    .about__interests__title{
+    .about__interests__title {
         margin-bottom: 1em;
     }
-    
-    .interests{
+
+    .interests {
         font-size: 14px;
     }
 
     .interests-box__all,
-    .information-box__all{
+    .information-box__all {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-      
+
     }
 
 }
