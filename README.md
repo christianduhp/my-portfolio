@@ -31,3 +31,6 @@ The "Portfolio" section is the heart of this repository. It showcases a curated 
 The "Resume" section provides a detailed overview of my professional experience, education, and achievements. It includes information about my work history, roles, responsibilities, and notable projects I have worked on. You'll also find details about my education, certifications, and any relevant courses or training I have completed.
 
 Thank you for visiting my portfolio! I hope you find it informative and engaging. If you have any questions or would like to discuss potential collaboration opportunities, please feel free to contact me.
+
+
+![desktop](https://github.com/christianduhp/my-portfolio/assets/85292359/385cc630-c6f8-4475-9b60-6f6f14154ffa)

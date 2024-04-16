@@ -2,28 +2,20 @@
 function initialize() {
   handleElementMouseOver(
     "app/app-json/interests.json",
+    "interests",
     ".about-box",
     ".about__paragraph",
-    ".about__title",
-    "interests"
-  );
-
-  handleElementMouseOver(
-    "app/app-json/skills.json",
-    ".skill-box",
-    ".skill__paragraph",
-    ".skills__title",
-    "skills"
+    ".about__title"
   );
 }
 
 // Função para manipular eventos de mouseover e mouseout dos elementos
 function handleElementMouseOver(
   jsonFile,
+  arrayName,
   elementSelector,
   textElementSelector,
-  titleElementSelector,
-  arrayName
+  titleElementSelector
 ) {
   const elements = document.querySelectorAll(elementSelector);
   const textElement = document.querySelector(textElementSelector);
@@ -54,5 +46,4 @@ function handleElementMouseOver(
     .catch((error) => console.error(error));
 }
 
-// Chame a função de inicialização após o carregamento completo da página
 window.onload = initialize;

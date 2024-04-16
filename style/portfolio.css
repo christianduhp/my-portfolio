@@ -6,15 +6,25 @@
   background-color: var(--secondary-bg-color);
 }
 
-.swiper {
-  width: 70em;
+.portfolio__swiper {
+  overflow: hidden;
+  align-self: center;
+  max-width: 70em;
 }
+
+.projects_swiper {
+  position: relative;
+  max-width: 70em;
+  overflow: visible;
+}
+
 
 .portfolio__swiper,
 .portfolio__swiper h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .portfolio__swiper h3 {
@@ -22,21 +32,20 @@
   color: var(--primary-color)
 }
 
-.swiper-slide {
+.portfolio_swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: end;
   background-color: var(--primary-bg-color);
-  border-bottom-left-radius: 2em;
-  border-bottom-right-radius: 2em;
+  border-radius: 1em;
   padding-bottom: 2em;
   margin: 3em 0;
 }
 
 .swiper-slide__title {
-  font-size: 20px;
-  margin: 10px;
-  color: var(--primary-color);
+  font-size: medium;
+  margin: 5px;
+  color: var(--primary-bg-color);
 }
 
 .swiper-slide__tags {
@@ -56,6 +65,7 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
+  font-size: medium;
 }
 
 .swiper-slide__tag i {
@@ -65,15 +75,11 @@
 
 .swiper__info__container {
   width: 100%;
-  margin-bottom: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.swiper-slide:hover {
-  box-shadow: var(--shadow-hover);
-}
 
 .img__and__see-more {
   position: relative;
@@ -84,22 +90,39 @@
   display: block;
   width: 100%;
   min-height: 200px;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
 
-.swiper-slide__see-more { 
+.swiper-slide__see-more {
   position: absolute;
   bottom: 0;
   right: 0;
   padding: 1em 3em;
   background-color: var(--primary-color);
-  color: var(--cor-branco);
+  color: var(--primary-bg-color);
   text-decoration: none;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  border-top-left-radius: 10px;
+
 }
 
 .img__and__see-more:hover .swiper-slide__see-more {
   opacity: 1;
+}
+
+.projects_swiper-button-prev,
+.projects_swiper-button-next {
+  background-color: var(--primary-bg-color);
+  border-radius: 100%;
+  padding: 0.4em 0.8em;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: large;
+  font-weight: 600;
 }
 
 /* Responsividade - Mobile */
@@ -116,13 +139,10 @@
   .swiper__container h3 {
     font-size: 1.2em;
     text-align: center;
-
   }
 
-  .swiper {
-    min-width: 15em;
+  .projects_swiper {
     max-width: 20em;
-    margin: 2em 0em
   }
 
   .swiper-slide {
@@ -132,6 +152,12 @@
     width: 1em;
     margin: 2em 0;
   }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
 }
 
 /* Responsividade - Tablets */
@@ -149,11 +175,10 @@
     font-size: 1.2em;
     margin: 0.5em 1.5em;
     text-align: center;
-
   }
 
   .swiper {
-    width:40em
+    width: 40em
   }
 
 }

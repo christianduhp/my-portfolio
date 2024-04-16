@@ -9,6 +9,7 @@
 .header__menu {
     display: flex;
     gap: 5em;
+    margin-bottom: 1em;
 }
 
 .main__imagem {
@@ -52,16 +53,14 @@
     flex-direction: row;
     align-items: center;
     gap: 2em;
-    padding-top: 2em;
+    margin-top: 2em;
 }
 
-.fa-linkedin-in {
-    padding: 0 0.1em;
-}
 
 .links__header {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     border-radius: 100%;
     font-size: 1.5rem;
@@ -70,6 +69,9 @@
     text-decoration: none;
     box-shadow: var(--shadow-button);
     outline: 2px solid var(--primary-color);
+    overflow: hidden;
+    width: 25px;
+    height: 25px;
 }
 
 .links__header:is(:hover, :focus) {
@@ -77,7 +79,7 @@
 }
 
 .header__menu__link:hover {
-    color: var(--cor-branco);
+    color: var(--text-color);
 }
 
 .header-mobile__checkbox,
@@ -146,8 +148,6 @@
     .header__menu__link {
         display: block;
         margin: 0;
-
-
         padding: 1em 1.4em 1em 2em;
         width: 8em;
     }

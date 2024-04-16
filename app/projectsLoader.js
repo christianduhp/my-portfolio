@@ -1,11 +1,11 @@
-function initializeSwiper() {
-  const swiper = new Swiper(".swiper", {
+function initializeProjectsSwiper() {
+  const swiper = new Swiper(".projects_swiper", {
     loop: true,
     speed: 400,
     centeredSlides: true,
     allowTouchMove: true,
     pagination: {
-      el: ".swiper-pagination",
+      el: ".projects_swiper-pagination",
       type: "bullets",
     },
     autoplay: {
@@ -15,8 +15,8 @@ function initializeSwiper() {
       slideShadows: false,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".projects_swiper-button-next",
+      prevEl: ".projects_swiper-button-prev",
     },
     breakpoints: {
       320: {
@@ -35,16 +35,14 @@ function initializeSwiper() {
   });
 }
 
-function fetchProjects() {
-  return fetch(
+async function fetchProjects() {
+  const response = await fetch(
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQsWU-Gxle6meR8EJikA-vTLsw8O-3JjjT_ltyvvEYS8wWtk-AWa9ii8S8r3-ZXnO50dhBj34QfcPZk/pub?gid=0&single=true&output=csv"
-  )
-    .then((response) => response.text())
-    .then((csvData) => {
-      projects = parseCSVtoJSON(csvData);
-      console.table(projects);
-      return projects;
-    });
+  );
+  const csvData = await response.text();
+  projects = parseCSVtoJSON(csvData);
+  // console.table(projects);
+  return projects;
 }
 
 function parseCSVtoJSON(csvData) {
@@ -66,7 +64,7 @@ function parseCSVtoJSON(csvData) {
   });
 }
 
-const swiperWrapper = document.querySelector(".swiper-wrapper");
+const swiperWrapper = document.querySelector(".projects_swiper-wrapper");
 
 function showProjectsOnPage(projectsList) {
   swiperWrapper.innerHTML = "";
@@ -80,10 +78,10 @@ function showProjectsOnPage(projectsList) {
       })
       .join("");
 
-    swiperWrapper.innerHTML += `<div class="swiper-slide">
+    swiperWrapper.innerHTML += `<div class="portfolio_swiper-slide swiper-slide">
       <a target="_blank" href="${project.link}">
         <div class="img__and__see-more">
-          <img  crossorigin="anonymous" class="swiper__img" src="https://drive.lienuc.com/uc?id=${project.image}" alt="${project.title}">
+          <img crossorigin="anonymous" class="swiper__img" src="https://drive.lienuc.com/uc?id=${project.image}" alt="${project.title}">
         
           <a target="_blank" href="${project.link}" class="swiper-slide__see-more">Ver mais</a>
         </div>
@@ -105,7 +103,7 @@ function getIcon(tag) {
     JavaScript: "fab fa-js-square",
     Python: "fab fa-python",
     "Excel VBA": "fas fa-file-excel",
-    Raact: "fa-brands fa-react",
+    React: "fa-brands fa-react",
     Angular: "fa-brands fa-angular",
     Bootstrap: "fa-brands fa-bootstrap",
     "Vue.js": "fa-brands fa-vuejs",
@@ -123,5 +121,5 @@ function getIcon(tag) {
 
 fetchProjects().then(() => {
   showProjectsOnPage(projects);
-  initializeSwiper();
+  initializeProjectsSwiper();
 });

@@ -13,9 +13,9 @@
       "icon": "fas fa-database",
       "text": "SQL é uma linguagem essencial para o gerenciamento de bancos de dados relacionais. <br><br> Desenvolvi habilidades em SQL através de projetos práticos e estudos autodidatas. Posso projetar e consultar bancos de dados de forma eficiente, garantindo a integridade e segurança dos dados."    },
     {
-      "title": "GitHub",
+      "title": "Git & GitHub",
       "icon": "fab fa-github",
-      "text": "GitHub é uma ferramenta fundamental em meu fluxo de trabalho.<br><br> Utilizo o GitHub para colaboração eficiente, controle de versão e revisão de código. Meus repositórios refletem projetos significativos e contribuições para a comunidade. <br><br> Convido você a explorar meu perfil no GitHub para ter uma visão mais detalhada de meus projetos e contribuições."
+      "text": "Git é uma ferramenta fundamental em meu fluxo de trabalho.<br><br> Utilizo o GitHub para colaboração eficiente, controle de versão e revisão de código. Meus repositórios refletem projetos significativos e contribuições para a comunidade. <br><br> Convido você a explorar meu perfil no GitHub para ter uma visão mais detalhada de meus projetos e contribuições."
     },
     {
       "title": "JavaScript",
@@ -37,14 +37,12 @@
       "text": "CSS é uma ferramenta poderosa que não apenas me permite transformar páginas web HTML estáticas, mas também criar experiências visualmente impressionantes e responsivas. <br><br> Ao aderir à abordagem mobile-first, priorizo o desenvolvimento de sites totalmente otimizados para dispositivos móveis. <br><br> Além disso, meus projetos no portfólio exemplificam minha proficiência em utilizar o CSS3 para criar interfaces esteticamente agradáveis e amigáveis ao usuário."
     },
     {
-      "title": "C++",
-      "icon": "fas fa-code",
-      "text": "C++ foi minha linguagem de escolha para abordar projetos eletrônicos, especialmente em conjunto com Arduino. <br><br> Através desses projetos, adquiri habilidades em programação C++ e desenvolvi uma compreensão profunda de sua aplicação em sistemas embarcados. <br><br> Projetos notáveis incluem a criação de um sistema de semáforo e um jogo de memória, ambos os quais podem ser explorados em minha página do Tinkercad."
-    },
-    {
-      "title": "Excel VBA",
-      "icon": "fas fa-file-excel",
-      "text": "Iniciei minha jornada com Dashboards no Excel, com o objetivo de criar planilhas visualmente atraentes e informativas. <br><br> No entanto, ao aprofundar-me na manipulação de dados, percebi que a codificação VBA poderia levar meu trabalho a um patamar superior. <br><br> Com VBA, adquiri o poder de automatizar processos, aprimorar a funcionalidade e otimizar a gestão de infomações no Excel."
+      "title": "Java",
+      "icon": "fab fa-java",
+      "text": "Java é uma das linguagens de programação mais populares e versáteis. <br><br> Eu utilizei Java em uma variedade de projetos durante minha graduação, com foco na programação orientada a objetos. <br><br> Estou constantemente aprendendo e explorando novas técnicas e bibliotecas em Java para expandir minhas habilidades e conhecimentos."
     }
+    
+    
+
   ]
 }

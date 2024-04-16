@@ -50,7 +50,7 @@
 }
 
 .timeline-item p {
-    text-align: justify;
+    text-align:justify;
 }
 
 .timeline-item-content {
@@ -72,6 +72,10 @@
 
 .timeline-item-content h2 {
     font-size: 20px;
+}
+
+.timeline-item-content p {
+    font-size: medium;
 }
 
 .timeline-item::before {
@@ -108,8 +112,21 @@
         flex-direction: column;
     }
 
-    .resume__container{
+    .resume__container {
         margin: 1em;
     }
-    
+
 }
+
+/* Responsividade - Tablets */
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+
+    .resume__containers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume__container {
+        margin: 1em;
+    }
+  }
