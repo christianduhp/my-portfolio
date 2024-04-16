@@ -81,7 +81,7 @@ function showProjectsOnPage(projectsList) {
     swiperWrapper.innerHTML += `<div class="portfolio_swiper-slide swiper-slide">
       <a target="_blank" href="${project.link}">
         <div class="img__and__see-more">
-          <img crossorigin="anonymous" class="swiper__img" src="https://drive.lienuc.com/uc?id=${project.image}" alt="${project.title}">
+          <img class="swiper__img" src="https://drive.google.com/thumbnail?id=${project.image}&sz=w1000" alt="${project.title}">
         
           <a target="_blank" href="${project.link}" class="swiper-slide__see-more">Ver mais</a>
         </div>
