@@ -13,8 +13,8 @@
     {
       "title": "IA",
       "icon": "fas fa-robot",
-      "text": "De chatbots a carros autônomos, a inteligência artificial está transformando radicalmente nossa maneira de viver e interagir com o mundo. Sou fascinado por esse campo e acredito firmemente que as automações proporcionadas pela IA têm o potencial de tornar a vida humana significativamente mais fácil e eficiente."
-    },
+      "text": "De chatbots a carros autônomos, a inteligência artificial está transformando radicalmente nossa maneira de viver e interagir com o mundo. Sou fascinado por esse campo e acredito firmemente que as automações proporcionadas pela IA têm o potencial de tornar a vida humana significativamente mais fácil e eficiente. Já participei de diversos projetos na área de inteligência artificial e te convido a dar uma olha no meu portfólio abaixo."
+    },          
     {
       "title": "Ciência",
       "icon": "fas fa-atom",
@@ -26,9 +26,10 @@
       "text": "Explorar <span class='highlight'>diferentes culturas, experimentar novas cozinhas e me imergir em ambientes desconhecidos sempre me fascinou. </span> Estou constantemente em busca de novas aventuras e adicionando à minha lista de viagens, ansioso para abraçar as <span class='highlight'>diversas maravilhas que nosso planeta tem a oferecer.</span>"
     },
     {
-      "title": "Filmes",
+      "title": "Ficção científica",
       "icon": "fas fa-hand-spock",
-      "text":  "A <span class='highlight'>ficção científica</span> tem um lugar especial em meu coração. Um dos meus favoritos é <span class='highlight'>'Interstellar'</span>, que combina lindamente uma narrativa envolvente com conceitos científicos."
+        "text": "A <span class='highlight'>ficção científica</span> tem um lugar especial em meu coração. Um dos meus filmes favoritos é <span class='highlight'>'Interstellar'</span>, que combina lindamente uma narrativa envolvente com conceitos científicos. Além de filmes, sou fã dos livros da série <span class='highlight'>Fundação</span> de Isaac Asimov. Essas obras exploram temas complexos e intrigantes sobre a evolução das sociedades e o papel da ciência e da tecnologia no futuro da humanidade."
     }
+      
   ]
 }

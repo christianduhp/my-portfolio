@@ -3,7 +3,11 @@
     {
       "title": "Python",
       "icon": "fab fa-python",
-      "text": "Python foi a primeira linguagem que aprendi e despertou minha paixão pela programação. <br><br> Desenvolvi habilidades em Python através de estudos, incluindo cursos especializados em Programação Orientada a Objetos e diversos projetos que realizei, envolvendo análise de dados, machine learning, técnicas de automação, APIs e sistemas web. <br><br> Você pode explorar projetos que demonstram minha experiência em Python em meu portfólio abaixo."    },
+      "text": "Python foi a primeira linguagem de programação que aprendi, e foi ela que despertou minha paixão por esse campo. Ao longo dos anos, aperfeiçoei minhas habilidades em Python por meio de estudos, desde cursos especializados em Programação Orientada a Objetos até a integração de IA em sistemas. <br><br> Participei de diversos projetos que vão desde análise de dados e machine learning até automação, integração de APIs, desenvolvimento de sistemas web e a aplicação de IA em soluções diversas. <br><br> Você pode explorar projetos que destacam minha experiência em Python acessando o portfólio abaixo." },
+    {
+      "title": "LangChain",
+      "icon": "fa-solid fa-crow fa-flip-horizontal ",
+      "text": "Minha jornada com LangChain começou com a realização de projetos e cursos especializados na área, onde explorei a poderosa capacidade dessa tecnologia para criar soluções de IA avançadas.<br><br>A partir desse conhecimento, implementei diversas soluções de inteligência artificial, incluindo chatbots, sistemas de Recuperação de Informação com Geração (RAG), transcrição de áudios, cadeias de processamento (chains), agentes autônomos e a utilização de ferramentas (tools) em modelos de linguagem.<br><br>Além disso, já integrei modelos de ponta, como os da OpenAI, Mistral, LLaMA, Gemini, entre outros disponíveis no Hugging Face.<br><br>Esses projetos demonstram minha habilidade em aplicar LangChain de maneira eficaz para resolver problemas complexos e criar experiências interativas e inteligentes. Confira meu portfólio abaixo para ver exemplos dessas implementações."},
     {
       "title": "Machine Learning",
       "icon": "fas fa-robot",
@@ -35,14 +39,7 @@
       "title": "CSS3",
       "icon": "fab fa-css3-alt",
       "text": "CSS é uma ferramenta poderosa que não apenas me permite transformar páginas web HTML estáticas, mas também criar experiências visualmente impressionantes e responsivas. <br><br> Ao aderir à abordagem mobile-first, priorizo o desenvolvimento de sites totalmente otimizados para dispositivos móveis. <br><br> Além disso, meus projetos no portfólio exemplificam minha proficiência em utilizar o CSS3 para criar interfaces esteticamente agradáveis e amigáveis ao usuário."
-    },
-    {
-      "title": "Java",
-      "icon": "fab fa-java",
-      "text": "Java é uma das linguagens de programação mais populares e versáteis. <br><br> Eu utilizei Java em uma variedade de projetos durante minha graduação, com foco na programação orientada a objetos. <br><br> Estou constantemente aprendendo e explorando novas técnicas e bibliotecas em Java para expandir minhas habilidades e conhecimentos."
-    }
-    
-    
+    } 
 
   ]
 }

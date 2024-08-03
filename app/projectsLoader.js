@@ -114,6 +114,9 @@ function getIcon(tag) {
     "Machine Learning": "fa-solid fa-robot",
     MySQL: "fa-solid fa-database",
     PHP: "fa-brands fa-php",
+    OpenCV: "fa-solid fa-eye",
+    Mediapipe:  "fa-regular fa-hand",
+    LangChain: "fa-solid fa-crow fa-flip-horizontal",
   };
 
   return tagMap[tag] || "";
