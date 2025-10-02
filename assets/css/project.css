@@ -1,0 +1,125 @@
+.project-hero {
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.project-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-hero p {
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    margin-bottom: 3rem;
+}
+
+.project-hero img {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.project-details {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+    max-width: var(--container-width);
+    margin: 4rem auto;
+    padding: 0 2rem;
+    text-align: left;
+}
+
+.project-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-description p {
+    color: var(--secondary-text-color);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.project-meta {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    align-self: start;
+    /* Impede que o card estique */
+}
+
+.project-meta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 1rem;
+}
+
+.meta-item {
+    margin-bottom: 1.5rem;
+}
+
+.meta-item strong {
+    display: block;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.meta-item span,
+.meta-item a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.meta-item a:hover {
+    color: var(--primary-color);
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background-color: var(--bg-color);
+    padding: 0.5rem 1rem;
+    border-radius: 980px;
+    font-size: 0.9rem;
+}
+
+.project-gallery {
+    max-width: var(--container-width);
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.project-gallery h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .project-details {
+        grid-template-columns: 1fr;
+    }
+
+    .project-hero h1 {
+        font-size: 2.5rem;
+    }
+}

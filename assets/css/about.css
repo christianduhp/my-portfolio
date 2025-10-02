@@ -1,0 +1,47 @@
+.about-section {
+    border-radius: 1rem;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: center;
+    text-align: left;
+}
+
+.about-image img {
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.about-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.about-paragraph {
+    font-size: 1.1rem;
+    color: var(--secondary-text-color);
+    margin-bottom: 3rem;
+    margin-right: auto;
+
+}
+
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-top: 2rem;
+    }
+
+    .about-links {
+        justify-content: center;
+    }
+}
