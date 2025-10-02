@@ -257,6 +257,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <script src="assets/js/analytics.js"></script>
     <script src="assets/js/main.js" defer></script>
     <script src="assets/js/particles.min.js" defer></script>
     <script src="assets/js/particles-config.js" defer></script>
@@ -265,43 +266,6 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Inicia a biblioteca de animações AOS
-            AOS.init();
-
-            // Inicia o efeito Tilt nos elementos com o atributo 'data-tilt'
-            VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
-                max: 15,    // Rotação máxima em graus
-                speed: 400, // Velocidade da transição
-                glare: true, // Adiciona um efeito de brilho
-                "max-glare": 0.5 // Intensidade do brilho
-            });
-
-            // Garante que o AOS recalcule as posições após o carregamento de todo o conteúdo
-            window.addEventListener("load", function () {
-                AOS.refresh();
-            });
-
-            // Configuração do efeito de digitação
-            var typed = new Typed(".typing", {
-                strings: [
-                    "Desenvolvendo software que resolve problemas reais",
-                    "Automatizando processos para acelerar seu negócio",
-                    "Soluções escaláveis e de alta performance",
-                    "Da arquitetura complexa à experiência do usuário",
-                    "Menos tarefas repetitivas, mais resultados estratégicos",
-                    "Transformando ideias complexas em software intuitivo",
-                    "Performance, segurança e escalabilidade em cada projeto",
-                ],
-                typeSpeed: 50,
-                backSpeed: 30,
-                backDelay: 2500,
-                loop: true
-            });
-        });
-    </script>
 
 </body>
 
