@@ -21,94 +21,99 @@
     <div id="particles-js"></div>
 
     <header class="header glass-effect">
-        <nav class="navbar " aria-label="Menu principal">
-            <a href="/" class="logo">
-                <img src="assets/images/logo-white-svg.svg" alt="Christian Oliveira Logo" height="80">
+        <nav class="navbar" aria-label="Menu principal">
+            <a href="/" class="logo" data-aos="fade-down">
+                <img src="assets/images/logo-white-svg.svg" alt="Christian Oliveira Logo" height="50">
             </a>
-            <ul class="nav-menu">
-                <li><a href="#services">Soluções</a></li>
-                <li><a href="#projects">Cases</a></li>
-                <li><a href="#process">Processo</a></li>
-                <li><a href="#skills">Especialidades</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#contact">Contato</a></li>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+            <ul class="nav-menu" data-aos="fade-down">
+                <li><a href="/#services">Serviços</a></li>
+                <li><a href="/#projects">Projetos</a></li>
+                <li><a href="/#process">Como Funciona?</a></li>
+                <li><a href="/#skills">Skills</a></li>
+                <li><a href="/#about">Sobre</a></li>
+                <li><a href="/#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <section class="hero">
-
             <div class="hero-content">
                 <h1 class="hero-title" data-aos="fade-down">Transforme Seu Projeto em Solução Digital</h1>
-                <div class="hero-subtitle">
+                <div class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
                     <span class="typing"></span>
                 </div>
-                <a href="#contact" class="cta-button" data-aos="fade-up" data-aos-delay="400">Agende uma Consultoria</a>
+                <a href="#contact" class="cta-button magnetic" data-aos="fade-up" data-aos-delay="200">Agende uma
+                    Consultoria</a>
             </div>
         </section>
 
         <section id="services" class="services-section">
-            <h2 class="section-title">Soluções Sob Medida</h2>
+            <h2 class="section-title" data-aos="fade-up">Soluções Sob Medida</h2>
             <div class="services-grid">
-                <div class="service-card glass-effect" data-aos="fade-up">
+                <div class="service-card glass-effect" data-aos="fade-up" data-aos-delay="100" data-tilt>
                     <div class="service-icon"><i class="fas fa-code"></i></div>
                     <h3 class="service-title">Desenvolvimento Web</h3>
                     <p class="service-description">Crio sites, automações e sistemas performáticos e elegantes, focados
                         na
                         experiência do usuário.</p>
                 </div>
-                <div class="service-card glass-effect" data-aos="fade-up">
+                <div class="service-card glass-effect" data-aos="fade-up" data-aos-delay="200" data-tilt>
                     <div class="service-icon"><i class="fas fa-sitemap"></i></div>
                     <h3 class="service-title">Arquitetura de Software</h3>
                     <p class="service-description">Planejo e estruturo sistemas escaláveis e seguros para o futuro do
                         seu negócio.</p>
                 </div>
-                <div class="service-card glass-effect" data-aos="fade-up">
+                <div class="service-card glass-effect" data-aos="fade-up" data-aos-delay="300" data-tilt>
                     <div class="service-icon"><i class="fas fa-rocket"></i></div>
                     <h3 class="service-title">Aplicações Customizadas</h3>
                     <p class="service-description">Construo ferramentas e integrações para otimizar seus processos e
                         aumentar a eficiência.</p>
                 </div>
-
             </div>
         </section>
 
         <section id="projects" class="projects-section" data-aos="fade-up">
-            <h2 class="section-title">Projetos Recentes</h2>
+            <h2 class="section-title" data-aos="fade-up">Projetos Recentes</h2>
             <div class="projects-grid" id="projects-grid-homepage"></div>
-            <div class="view-all-projects">
-                <a href="projetos.html" class="link">Ver todos os projetos &rarr;</a>
+
+            <div class="view-all-projects" data-aos="fade-up">
+                <a href="projetos.html" class="cta-button secondary">Ver Portfólio Completo <i
+                        class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
             </div>
         </section>
 
-
         <section id="process" class="process-section">
-            <h2 class="section-title">Meu Processo de Trabalho</h2>
+            <h2 class="section-title" data-aos="fade-up">Meu Processo de Trabalho</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-content glass-effect" data-aos="fade-left">
+                    <div class="timeline-content glass-effect" data-aos="fade-left" data-aos-delay="100">
                         <h3><span>01.</span> Imersão e Design</h3>
                         <p>Reunião de alinhamento, entrega de conteúdo e aprovação do design visual e da arquitetura do
                             projeto.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-content glass-effect" data-aos="fade-right">
+                    <div class="timeline-content glass-effect" data-aos="fade-right" data-aos-delay="100">
                         <h3><span>02.</span> Desenvolvimento Back-End</h3>
                         <p>Construção do cérebro da aplicação, incluindo o painel administrativo e a estruturação do
                             banco de dados.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-content glass-effect" data-aos="fade-left">
+                    <div class="timeline-content glass-effect" data-aos="fade-left" data-aos-delay="100">
                         <h3><span>03.</span> Desenvolvimento Front-End</h3>
                         <p>Criação da interface que o usuário vê, conectando o design visual com as funcionalidades do
                             back-end.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-content glass-effect" data-aos="fade-right">
+                    <div class="timeline-content glass-effect" data-aos="fade-right" data-aos-delay="100">
                         <h3><span>04.</span> Lançamento e Suporte</h3>
                         <p>Revisão final, lançamento oficial do projeto, treinamento da equipe e início do período de
                             suporte técnico.</p>
@@ -118,11 +123,12 @@
         </section>
 
         <section id="skills" class="skills-section">
-            <h2 class="section-title">Especialidades e Tecnologias</h2>
-            <p class="section-subtitle">Meu conjunto de ferramentas para criar, otimizar e escalar soluções digitais de
+            <h2 class="section-title" data-aos="fade-up">Especialidades e Tecnologias</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Meu conjunto de ferramentas para criar,
+                otimizar e escalar soluções digitais de
                 ponta.</p>
             <div class="skills-categories">
-                <div class="skill-category glass-effect" data-aos="zoom-out-up">
+                <div class="skill-category glass-effect" data-aos="zoom-in" data-aos-delay="100" data-tilt>
                     <h3><i class="fas fa-brain"></i> Inteligência Artificial</h3>
                     <ul>
                         <li>Machine Learning</li>
@@ -130,7 +136,7 @@
                         <li>Aplicações de IA Generativa</li>
                     </ul>
                 </div>
-                <div class="skill-category glass-effect" data-aos="zoom-out-up">
+                <div class="skill-category glass-effect" data-aos="zoom-in" data-aos-delay="200" data-tilt>
                     <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
                     <ul>
                         <li>Docker</li>
@@ -139,7 +145,7 @@
                         <li>CI/CD</li>
                     </ul>
                 </div>
-                <div class="skill-category glass-effect" data-aos="zoom-out-up">
+                <div class="skill-category glass-effect" data-aos="zoom-in" data-aos-delay="300" data-tilt>
                     <h3><i class="fas fa-server"></i> Back-End & Dados</h3>
                     <ul>
                         <li>Python</li>
@@ -147,7 +153,7 @@
                         <li>Desenvolvimento de APIs REST</li>
                     </ul>
                 </div>
-                <div class="skill-category glass-effect" data-aos="zoom-out-up">
+                <div class="skill-category glass-effect" data-aos="zoom-in" data-aos-delay="400" data-tilt>
                     <h3><i class="fas fa-desktop"></i> Front-End</h3>
                     <ul>
                         <li>React</li>
@@ -158,47 +164,47 @@
             </div>
         </section>
 
-        <section id="about" class="about-section glass-effect" data-aos="zoom-out">
+        <section id="about" class="about-section glass-effect" data-aos="fade-up">
             <div class="about-grid">
-                <div class="about-image">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="100">
                     <img src="assets/images/me.png" alt="Foto de Christian Oliveira">
                 </div>
-                <div class="about-text">
+                <div class="about-text" data-aos="fade-left" data-aos-delay="200">
                     <h2 class="section-title">Minha Jornada na Tecnologia</h2>
                     <p class="about-paragraph">
                         Olá! Sou Christian Oliveira, Engenheiro da Computação com pós-graduação em Arquitetura de
-                        Software, apaixonado por resolver problemas complexos com código limpo e eficiente.
-                        Minha jornada começou com a curiosidade de entender como
-                        a tecnologia molda o mundo, e hoje meu objetivo é construir produtos digitais que não apenas
-                        funcionem perfeitamente, mas que também ofereçam uma experiência de usuário memorável.
+                        Software. Minha paixão é traduzir desafios complexos em sistemas elegantes, robustos e
+                        escaláveis.
                     </p>
                     <p class="about-paragraph">
-                        Acredito que a melhor solução é fruto de uma colaboração próxima, entendendo a fundo as
-                        necessidades do negócio para então desenhar uma arquitetura robusta e escalável.
+                        Como um astrônomo que mapeia constelações, meu trabalho é enxergar o sistema como um todo,
+                        garantindo que cada componente se conecte de forma coesa para criar um produto digital que não
+                        apenas funcione perfeitamente, mas que também impulsione o crescimento do seu negócio.
                     </p>
                     <div class="about-links">
-
                         <a href="https://www.linkedin.com/in/christian-eduardo-oliveira" class="cta-button"
                             target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <a href="https://github.com/christianduhp" class="cta-button" target="_blank"
+                        <a href="https://github.com/christianduhp" class="cta-button secondary" target="_blank"
                             aria-label="GitHub"><i class="fab fa-github"></i> Github</a>
-
                     </div>
                 </div>
+            </div>
         </section>
 
         <section id="contact" class="contact-section">
-            <h2 class="section-title" data-aos="zoom-out">Vamos construir algo incrível?</h2>
-            <p class="section-subtitle" data-aos="fade-up">Se você tem uma ideia ou um desafio, estou aqui para ajudar
+            <h2 class="section-title" data-aos="fade-up">Vamos construir algo incrível?</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Se você tem uma ideia ou um desafio,
+                estou aqui para ajudar
                 a transformá-la em
                 realidade. Entre em contato e vamos conversar sobre seu projeto.</p>
             <div class="contact-methods">
-                <a href="mailto:ch.oliveira.solutions@gmail.com" class="contact-button email" data-aos="fade-left">
+                <a href="mailto:ch.oliveira.solutions@gmail.com" class="contact-button email" data-aos="fade-left"
+                    data-aos-delay="200">
                     <i class="fas fa-envelope"></i>
                     ch.oliveira.solutions@gmail.com
                 </a>
                 <a href="https://wa.me/5511975674377" class="contact-button whatsapp" target="_blank"
-                    data-aos="fade-right">
+                    data-aos="fade-right" data-aos-delay="200">
                     <i class="fab fa-whatsapp"></i>
                     (11) 97567-4377
                 </a>
@@ -209,13 +215,13 @@
 
     <footer class="footer glass-effect">
         <div class="footer-grid">
-            <div class="footer-column brand">
+            <div class="footer-column brand" data-aos="fade-up" data-aos-delay="100">
                 <a href="/" class="logo">
                     <img src="assets/images/logo-white-svg.svg" alt="Christian Oliveira Logo" height="40">
                 </a>
                 <p>Engenheiro e Arquiteto de Software criando soluções digitais para o futuro.</p>
             </div>
-            <div class="footer-column">
+            <div class="footer-column" data-aos="fade-up" data-aos-delay="200">
                 <h4>Navegação</h4>
                 <ul>
                     <li><a href="#services">Serviços</a></li>
@@ -224,14 +230,14 @@
                     <li><a href="#about">Sobre</a></li>
                 </ul>
             </div>
-            <div class="footer-column">
+            <div class="footer-column" data-aos="fade-up" data-aos-delay="300">
                 <h4>Contato</h4>
                 <ul>
                     <li><a href="mailto:ch.oliveira.solutions@gmail.com">ch.oliveira.solutions@gmail.com</a></li>
                     <li><a href="https://wa.me/5511975674377">(11) 97567-4377</a></li>
                 </ul>
             </div>
-            <div class="footer-column">
+            <div class="footer-column" data-aos="fade-up" data-aos-delay="400">
                 <h4>Redes</h4>
                 <div class="social-links-footer">
                     <a href="https://www.linkedin.com/in/christian-eduardo-oliveira/" target="_blank"
@@ -251,31 +257,49 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <script src="assets/js/main.js" defer></script>
     <script src="assets/js/particles.min.js" defer></script>
     <script src="assets/js/particles-config.js" defer></script>
     <script src="assets/js/portfolio-loader.js" defer></script>
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 
     <script>
-        AOS.init();
+        document.addEventListener("DOMContentLoaded", function () {
+            // Inicia a biblioteca de animações AOS
+            AOS.init();
 
+            // Inicia o efeito Tilt nos elementos com o atributo 'data-tilt'
+            VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
+                max: 15,    // Rotação máxima em graus
+                speed: 400, // Velocidade da transição
+                glare: true, // Adiciona um efeito de brilho
+                "max-glare": 0.5 // Intensidade do brilho
+            });
 
-        var typed = new Typed(".typing", {
-            strings: [
-                "Desenvolvendo software que resolve problemas reais",
-                "Automatizando processos para acelerar seu negócio",
-                "Soluções escaláveis e de alta performance",
-                "Da arquitetura complexa à experiência do usuário",
-                "Menos tarefas repetitivas, mais resultados estratégicos",
-                "Transformando ideias complexas em software intuitivo",
-                "Performance, segurança e escalabilidade em cada projeto",
-            ],
-            typeSpeed: 50,   // velocidade para digitar
-            backSpeed: 30,   // velocidade para apagar
-            backDelay: 2500, // tempo antes de apagar
-            loop: true       // fica repetindo
+            // Garante que o AOS recalcule as posições após o carregamento de todo o conteúdo
+            window.addEventListener("load", function () {
+                AOS.refresh();
+            });
+
+            // Configuração do efeito de digitação
+            var typed = new Typed(".typing", {
+                strings: [
+                    "Desenvolvendo software que resolve problemas reais",
+                    "Automatizando processos para acelerar seu negócio",
+                    "Soluções escaláveis e de alta performance",
+                    "Da arquitetura complexa à experiência do usuário",
+                    "Menos tarefas repetitivas, mais resultados estratégicos",
+                    "Transformando ideias complexas em software intuitivo",
+                    "Performance, segurança e escalabilidade em cada projeto",
+                ],
+                typeSpeed: 50,
+                backSpeed: 30,
+                backDelay: 2500,
+                loop: true
+            });
         });
     </script>
 

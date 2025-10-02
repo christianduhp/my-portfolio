@@ -13,7 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/project_templete.css">
+    <link rel="stylesheet" href="assets/css/project.css">
     <link rel="icon" href="assets/images/logo-white-svg.svg" type="image/svg+xml">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
@@ -24,8 +24,14 @@
     <header class="header glass-effect">
         <nav class="navbar" aria-label="Menu principal">
             <a href="/" class="logo">
-                <img src="assets/images/logo-white-svg.svg" alt="Christian Oliveira Logo" height="80">
+                <img src="assets/images/logo-white-svg.svg" alt="Christian Oliveira Logo" height="50">
             </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
             <ul class="nav-menu">
                 <li><a href="/#services">Serviços</a></li>
                 <li><a href="/#projects">Projetos</a></li>
@@ -78,16 +84,15 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-lightbox/2.14.2/simple-lightbox.min.js"></script>
+
     <script src="assets/js/particles.min.js" defer></script>
     <script src="assets/js/particles-config.js" defer></script>
     <script src="assets/js/portfolio-loader.js" defer></script>
-
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <script>
-        AOS.init({
-            once: true,
-            duration: 800
-        });
+        AOS.init();
     </script>
 </body>
 

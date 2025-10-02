@@ -30,6 +30,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 img,

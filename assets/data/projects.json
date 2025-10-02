@@ -8,11 +8,10 @@
     "client": "Estudo de Caso Acadêmico",
     "myRole": "Engenheiro de Machine Learning",
     "technologies": ["Python", "Machine Learning", "Scikit-learn", "Pandas"],
-    "liveLink": "#",
+    "liveLink": "https://cardiovascular-disease-predictor.streamlit.app",
     "challenge": "Prever risco de doenças cardíacas a partir de dados clínicos.",
     "solution": "Treinei modelos preditivos e disponibilizei API para análise de risco individual.",
-    "galleryImages": [],
-    "isFeatured": false
+    "galleryImages": []
   },
   {
     "id": "portal-rh",
@@ -26,9 +25,23 @@
     "liveLink": null,
     "challenge": "Centralizar a gestão de colaboradores e processos de RH, substituindo planilhas manuais por um sistema integrado, seguro e escalável.",
     "solution": "Desenvolvi um portal interno utilizando Flask, com autenticação segura, cadastro de funcionários, gestão de férias, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência da equipe de RH.",
-    "galleryImages": [],
-    "isFeatured": true
+    "galleryImages": []
   },
+  {
+    "id": "gestao-pagamentos",
+    "title": "Gestão de Pagamentos",
+    "subtitle": "Sistema de Controle de Pagamentos de clientes",
+    "thumbnailImage": "assets/images/projects/gestao-pagamentos.webp",
+    "heroImage": "assets/images/projects/gestao-pagamentos.webp",
+    "client": "Empresa Privada",
+    "myRole": "Desenvolvedor Full-Stack",
+    "technologies": ["Python", "Flask", "MySQL", "JavaScript", "Bootstrap"],
+    "liveLink": null,
+    "challenge": "Centralizar a gestão de pagamentos de clientes, substituindo planilhas manuais por um sistema integrado, seguro e escalável.",
+    "solution": "Desenvolvi um portal interno utilizando Flask, com autenticação segura, cadastro de clientes, gestão de faturas, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência da equipe financeira.",
+    "galleryImages": []
+  },
+
   {
     "id": "website-nutricionista",
     "title": "Website Nutricionista",
@@ -41,8 +54,13 @@
     "liveLink": null,
     "challenge": "Gerenciar pacientes e planos alimentares de forma online e segura.",
     "solution": "Sistema completo com painel administrativo e área pública responsiva para pacientes e nutricionistas.",
-    "galleryImages": [],
-    "isFeatured": true
+    "galleryImages": [
+      "assets/images/projects/website-nutricionista-0.webp",
+      "assets/images/projects/website-nutricionista-1.webp",
+      "assets/images/projects/website-nutricionista-2.webp",
+      "assets/images/projects/website-nutricionista-3.webp",
+      "assets/images/projects/website-nutricionista-4.webp"
+    ]
   },
   {
     "id": "apartament-rent-predictor",
@@ -56,10 +74,9 @@
     "liveLink": null,
     "challenge": "Estimativa de preços de aluguel com base em características do imóvel e localização.",
     "solution": "Treinei um modelo de regressão Random Forest que prevê preços de forma precisa para proprietários e inquilinos.",
-    "galleryImages": [],
-    "isFeatured": true
+    "galleryImages": []
   },
-  
+
   {
     "id": "website-psicologa",
     "title": "Website Psicóloga",
@@ -72,38 +89,63 @@
     "liveLink": "https://psiluanascola.com.br",
     "challenge": "Criar uma presença online profissional para a psicóloga, facilitando a comunicação com pacientes e simplificando o processo de agendamento de consultas.",
     "solution": "Desenvolvimento de um site responsivo com informações sobre especializações, blog de artigos sobre saúde mental e integração com formulário de contato para agendamentos.",
-    "galleryImages": [],
-    "isFeatured": true
+    "galleryImages": []
   },
-
   {
-    "id": "calculadora",
-    "title": "Calculadora",
-    "subtitle": "Aplicativo de Cálculos Personalizados para Empresa",
-    "thumbnailImage": "assets/images/projects/calculadora.webp",
-    "heroImage": "assets/images/projects/calculadora.webp",
-    "client": "Projeto para Empresa",
-    "myRole": "Desenvolvedor Back-End",
-    "technologies": ["Python", "Tkinter"],
+    "id": "central-automacoes",
+    "title": "Central de Automação",
+    "subtitle": "Sistema de Automação de Processos Empresariais",
+    "thumbnailImage": "assets/images/projects/central-automacoes.webp",
+    "heroImage": "assets/images/projects/central-automacoes.webp",
+    "client": "Empresa Privada",
+    "myRole": "Desenvolvedor Full-Stack",
+    "technologies": ["Python", "Flask", "MySQL", "JavaScript", "Bootstrap"],
     "liveLink": null,
-    "challenge": "Criar uma calculadora customizada para necessidades específicas da empresa.",
-    "solution": "Implementei uma aplicação desktop com interface gráfica para cálculos de materiais.",
+    "challenge": "Centralizar a gestão de processos empresariais, como automação de tarefas repetitivas, substituindo planilhas manuais por um sistema integrado, seguro e escalável.",
+    "solution": "Desenvolvi um portal interno utilizando Flask, para gestão de automações, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência operacional da empresa.",
+    "galleryImages": []
+  },
+  {
+    "id": "ai-personal-trainer",
+    "title": "AI Personal Trainer",
+    "subtitle": "Contador de Flexões com MediaPipe, OpenCV e Streamlit",
+    "thumbnailImage": "assets/images/projects/personal-trainer-ai.webp",
+    "heroImage": "assets/images/projects/personal-trainer-ai.webp",
+    "client": "Projeto Pessoal",
+    "myRole": "Engenheiro de Machine Learning",
+    "technologies": ["Python", "MediaPipe", "OpenCV", "Streamlit"],
+    "liveLink": "https://github.com/christianduhp/ai-personal-trainer",
+    "challenge": "Detectar e contar flexões automaticamente em vídeos usando IA.",
+    "solution": "Implementei detecção de pose com MediaPipe e OpenCV, lógica de contagem de flexões e interface interativa com Streamlit para visualização dos resultados.",
     "galleryImages": []
   },
   {
     "id": "bytebank",
-    "title": "ByteBank",
-    "subtitle": "Simulador de Banco Digital",
+    "title": "Bytebank",
+    "subtitle": "Conversor de Moedas com Gráfico em Tempo Real",
     "thumbnailImage": "assets/images/projects/bytebank.webp",
     "heroImage": "assets/images/projects/bytebank.webp",
     "client": "Projeto Acadêmico",
     "myRole": "Desenvolvedor Front-End",
-    "technologies": ["JavaScript", "HTML", "CSS"],
+    "technologies": ["JavaScript", "HTML", "CSS", "Chart.js"],
+    "liveLink": "https://christianduhp.github.io/bytebank",
+    "challenge": "Permitir conversão de moedas com taxas de câmbio em tempo real e visualização gráfica das tendências.",
+    "solution": "Implementei seleção de moedas, conversão automática via AwesomeAPI, e exibição dos valores convertidos em gráfico interativo com Chart.js. Utilizei web workers para processamento assíncrono e melhorei a experiência do usuário com interface intuitiva.",
+    "galleryImages": []
+  },
+  {
+    "id": "serenatto-cafe-bistro",
+    "title": "Serenatto Café & Bistro",
+    "subtitle": "Website institucional para café e bistrô",
+    "thumbnailImage": "assets/images/projects/serenatto.webp",
+    "heroImage": "assets/images/projects/serenatto.webp",
+    "client": "Projeto Acadêmico",
+    "myRole": "Desenvolvedor Front-End",
+    "technologies": ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
     "liveLink": null,
-    "challenge": "Aprender manipulação de DOM e operações bancárias em interface web.",
-    "solution": "Construí simulador de contas e transferências com lógica de validação e atualização dinâmica do DOM.",
-    "galleryImages": [],
-    "isFeatured": true
+    "challenge": "Criar um site atrativo e funcional para apresentar os serviços, produtos e informações de contato do Serenatto Café & Bistro.",
+    "solution": "Implementei navegação responsiva, seção de serviços (café, bistrô, buffet, delivery), cards dinâmicos de produtos, formulário de contato e alternância de modo escuro.",
+    "galleryImages": []
   },
   {
     "id": "chatpdf",
@@ -114,9 +156,38 @@
     "client": "Projeto Acadêmico",
     "myRole": "Engenheiro de Machine Learning",
     "technologies": ["Python", "NLP", "Flask"],
-    "liveLink": "#",
+    "liveLink": "https://chatpdf-bot.streamlit.app/",
     "challenge": "Permitir consultas inteligentes em documentos PDF usando IA.",
     "solution": "Desenvolvi API que processa PDFs, indexa texto e responde perguntas via NLP.",
+    "galleryImages": []
+  },
+
+  {
+    "id": "music-recommendation",
+    "title": "Recomendador de Música",
+    "subtitle": "Sistema de Recomendação Baseado em Conteúdo",
+    "thumbnailImage": "assets/images/projects/music-recommendation.webp",
+    "heroImage": "assets/images/projects/music-recommendation.webp",
+    "client": "Projeto Acadêmico",
+    "myRole": "Engenheiro de Machine Learning",
+    "technologies": ["Python", "Machine Learning", "Pandas"],
+    "liveLink": null,
+    "challenge": "Sugerir músicas personalizadas com base nas preferências do usuário.",
+    "solution": "Algoritmo de recomendação baseado em atributos das músicas, oferecendo sugestões precisas com dados do Spotify.",
+    "galleryImages": []
+  },
+  {
+    "id": "meteora",
+    "title": "Meteora",
+    "subtitle": "Website institucional e vitrine de produtos",
+    "thumbnailImage": "assets/images/projects/meteora.webp",
+    "heroImage": "assets/images/projects/meteora.webp",
+    "client": "Projeto Acadêmico",
+    "myRole": "Desenvolvedor Front-End",
+    "technologies": ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+    "liveLink": "https://christianduhp.github.io/meteora",
+    "challenge": "Desenvolver um site responsivo e dinâmico para apresentar a marca Meteora, seus produtos e facilidades, utilizando um wireframe como referência.",
+    "solution": "Implementei o site com Bootstrap para responsividade, JavaScript para manipulação do DOM e componentes interativos como navbar, carrossel, busca por categoria, produtos em destaque, facilidades, formulário de cadastro, rodapé e modal de detalhes de produto.",
     "galleryImages": []
   },
   {
@@ -131,20 +202,6 @@
     "liveLink": null,
     "challenge": "Classificação automática de artigos em categorias predefinidas.",
     "solution": "Treinei modelo de NLP e disponibilizei via API RESTful para integração com outros sistemas.",
-    "galleryImages": []
-  },
-  {
-    "id": "music-recommendation",
-    "title": "Recomendador de Música",
-    "subtitle": "Sistema de Recomendação Baseado em Conteúdo",
-    "thumbnailImage": "assets/images/projects/music-recommendation.webp",
-    "heroImage": "assets/images/projects/music-recommendation.webp",
-    "client": "Projeto Acadêmico",
-    "myRole": "Engenheiro de Machine Learning",
-    "technologies": ["Python", "Machine Learning", "Pandas"],
-    "liveLink": null,
-    "challenge": "Sugerir músicas personalizadas com base nas preferências do usuário.",
-    "solution": "Algoritmo de recomendação baseado em atributos das músicas, oferecendo sugestões precisas com dados do Spotify.",
     "galleryImages": []
   }
 ]

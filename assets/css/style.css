@@ -1,12 +1,14 @@
 @import url('base.css');
 @import url('utils.css');
+@import url('header.css');
 @import url('main-section.css');
 @import url('services.css');
 @import url('projects.css');
-@import url('project_templete.css');
+@import url('project.css');
 @import url('about.css');
 @import url('tech.css');
 @import url('skills.css');
 @import url('timeline.css');
 @import url('contact.css');
 @import url('footer.css');
+@import url('responsive.css');
