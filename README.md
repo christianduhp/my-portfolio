@@ -1,36 +1,48 @@
-# Portfolio
+# Portfólio Pessoal | Christian Oliveira
 
-Welcome to my portfolio! This repository showcases my professional journey, skills, and accomplishments as a computer engineer and web developer. Here, you'll find information about me, my skills, portfolio projects, and resume.
+Bem-vindo ao repositório do meu portfólio pessoal. Este projeto foi desenvolvido para ser meu cartão de visitas digital, um espaço centralizado para apresentar minha jornada profissional, competências técnicas e os projetos nos quais trabalhei.
 
-## Table of Contents
+### ✨ [**Veja o site no ar**](https://christianduhp.github.io/my-portfolio/)
 
-- [Home](https://christianduhp.github.io/my-portfolio/)
-- [About Me](https://christianduhp.github.io/my-portfolio/#section2)
-- [Skills](https://christianduhp.github.io/my-portfolio/#section3)
-- [Portfolio](https://christianduhp.github.io/my-portfolio/#section4)
-- [Resume](https://christianduhp.github.io/my-portfolio/#section5)
+![Prévia do Portfólio](https://github.com/user-attachments/assets/ac7cf5c9-1c44-458c-a018-9fbb1f77a15a)
 
-## Home
+## Sobre o projeto
 
-The "Home" section provides an overview of my portfolio and serves as the landing page. It gives you a brief introduction to who I am, my expertise, and what you can expect to find in this portfolio.
+Este portfólio foi cuidadosamente criado com HTML, CSS e JavaScript puros para ser leve, rápido e totalmente responsivo. O objetivo principal é oferecer uma experiência de usuário fluida e agradável. Os dados dos projetos são carregados dinamicamente a partir de um arquivo JSON, facilitando a manutenção e a adição de novos trabalhos.
 
-## About Me
+## 🚀 Funcionalidades Principais
 
-The "About Me" section offers a deeper insight into my background, experience, and professional journey. It highlights my education, work history, and key accomplishments. You'll also learn about my passion for technology, my motivation, and the values that drive me in my career.
+- **Design Responsivo:** Interface totalmente adaptável para desktops, tablets e smartphones.
+- **Carregamento Dinâmico de Projetos:** Os projetos são carregados a partir de um arquivo `projects.json`, tornando o site facilmente atualizável.
+- **Animações Interativas:**
+  - Efeito de partículas no fundo com **Particles.js**.
+  - Animações de scroll suaves com **AOS (Animate on Scroll)**.
+  - Efeito 3D de inclinação (`tilt`) nos cards com **Vanilla-tilt.js**.
+  - Texto com efeito de digitação na seção principal com **Typed.js**.
+- **Navegação Fluida:** Estrutura de _Single Page Application_ na página inicial com links que levam suavemente às seções.
+- **Páginas Detalhadas:** Uma página de template para exibir detalhes de cada projeto individualmente.
 
-## Skills
+## 🛠️ Tecnologias Utilizadas
 
-The "Skills" section showcases my technical skills and areas of expertise. It covers a range of programming languages, frameworks, tools, and technologies that I am proficient in. Whether it's web development, software engineering, or data analysis, you'll find a comprehensive list of the skills I have acquired throughout my career.
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-## Portfolio
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **Bibliotecas JavaScript:**
+  - [AOS (Animate on Scroll)](https://michalsnik.github.io/aos/)
+  - [Particles.js](https://vincentgarreau.com/particles.js/)
+  - [Typed.js](https://github.com/mattboldt/typed.js/)
+  - [Vanilla-tilt.js](https://micku7zu.github.io/vanilla-tilt.js/)
 
-The "Portfolio" section is the heart of this repository. It showcases a curated selection of my projects, demonstrating my problem-solving abilities, creativity, and technical competence. Each project includes key features, and a link to the corresponding repository or live demo. Feel free to explore these projects to get a better understanding of my work.
+## 📜 Licença
 
-## Resume
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-The "Resume" section provides a detailed overview of my professional experience, education, and achievements. It includes information about my work history, roles, responsibilities, and notable projects I have worked on. You'll also find details about my education, certifications, and any relevant courses or training I have completed.
+## 📫 Contato
 
-Thank you for visiting my portfolio! I hope you find it informative and engaging. If you have any questions or would like to discuss potential collaboration opportunities, please feel free to contact me.
+**Christian Oliveira**
 
-
-![desktop](https://github.com/christianduhp/my-portfolio/assets/85292359/385cc630-c6f8-4475-9b60-6f6f14154ffa)
+- **LinkedIn:** [linkedin.com/in/christian-eduardo-oliveira](https://www.linkedin.com/in/christian-eduardo-oliveira)
+- **GitHub:** [github.com/christianduhp](https://github.com/christianduhp)
+- **Email:** ch.oliveira.solutions@gmail.com
