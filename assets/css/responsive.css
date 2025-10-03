@@ -44,11 +44,7 @@
         grid-template-columns: 1fr;
     }
 
-}
 
-
-/* === CELULARES (Telas até 768px) === */
-@media (max-width: 768px) {
 
     /* --- MENU HAMBÚRGUER --- */
     .nav-menu {
@@ -133,6 +129,12 @@
         right: 0;
         /* Traz o menu para a tela */
     }
+}
+
+
+/* === CELULARES (Telas até 768px) === */
+@media (max-width: 768px) {
+
 
 
     /* --- AJUSTES GERAIS PARA MOBILE --- */
