@@ -78,6 +78,7 @@ h6 {
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--text-color);
+    margin: 0 1em;
 }
 
 .nav-menu {

@@ -8,10 +8,10 @@
     -webkit-backdrop-filter: blur(2px);
 }
 
+
 .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
     max-width: var(--container-width);
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +21,7 @@
 .footer-column.brand p {
     margin-top: 1rem;
     color: var(--secondary-text-color);
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .footer-column h4 {
@@ -35,12 +35,15 @@
 }
 
 .footer-column ul li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
+    line-height: 1.6;
 }
 
-.footer-column a {
+.footer-column a,
+.footer-column li {
     text-decoration: none;
     color: var(--secondary-text-color);
+    max-width: 220px;
     transition: color 0.3s ease;
 }
 
