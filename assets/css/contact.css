@@ -29,6 +29,6 @@
     transform: scale(1.05);
 }
 
-.contact-button.email {
+.contact-button.outline {
     border-color: var(--primary-color);
 }

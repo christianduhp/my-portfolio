@@ -126,8 +126,12 @@ const PortfolioApp = {
                       project.liveLink && project.liveLink !== "#"
                         ? `
                     <div class="meta-item">
-                        <strong><i class="fas fa-external-link-alt"></i> Ver Online</strong>
-                        <a href="${project.liveLink}" target="_blank" rel="noopener noreferrer">Acessar projeto</a>
+                      <a href="${project.liveLink}" 
+                        target="_blank" 
+                        rel="noopener noreferre" 
+                        class="contact-button outline" 
+                        data-aos="fade-left">
+                      <i class="fas fa-external-link-alt"></i> Ver Projeto</a>
                     </div>`
                         : ""
                     }

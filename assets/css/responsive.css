@@ -292,4 +292,8 @@
         right: 20px;
         font-size: 24px;
     }
+
+    .logo img {
+        height: 40px;
+    }
 }

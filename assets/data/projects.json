@@ -161,7 +161,26 @@
     "solution": "Desenvolvi API que processa PDFs, indexa texto e responde perguntas via NLP.",
     "galleryImages": []
   },
-
+  {
+    "id": "sales-analytics-dashboard",
+    "title": "Sales Analytics Dashboard",
+    "subtitle": "Dashboard Interativo para Análise de Performance de Vendas",
+    "thumbnailImage": "assets/images/projects/sales-analytics-dashboard.webp",
+    "heroImage": "assets/images/projects/sales-analytics-dashboard.webp",
+    "client": "Projeto Acadêmico",
+    "myRole": "Desenvolvedor Data Analytics",
+    "technologies": [
+      "Python",
+      "Dash",
+      "Plotly",
+      "Dash Bootstrap Components",
+      "Pandas"
+    ],
+    "liveLink": "https://github.com/christianduhp/sales_analysis",
+    "challenge": "Permitir análise detalhada da performance de vendas, filtrando dados por equipe, período e consultor, além de acompanhar o retorno de diferentes meios de propaganda.",
+    "solution": "Desenvolvi um dashboard interativo com gráficos dinâmicos, filtros por mês e equipe, indicadores de performance, alternância de tema claro/escuro e design responsivo para visualização em qualquer dispositivo.",
+    "galleryImages": []
+  },
   {
     "id": "music-recommendation",
     "title": "Recomendador de Música",
@@ -171,7 +190,7 @@
     "client": "Projeto Acadêmico",
     "myRole": "Engenheiro de Machine Learning",
     "technologies": ["Python", "Machine Learning", "Pandas"],
-    "liveLink": null,
+    "liveLink": "https://github.com/christianduhp/music-recommendation",
     "challenge": "Sugerir músicas personalizadas com base nas preferências do usuário.",
     "solution": "Algoritmo de recomendação baseado em atributos das músicas, oferecendo sugestões precisas com dados do Spotify.",
     "galleryImages": []
@@ -199,7 +218,7 @@
     "client": "Projeto Acadêmico",
     "myRole": "Engenheiro de Machine Learning",
     "technologies": ["Python", "Machine Learning", "Flask"],
-    "liveLink": null,
+    "liveLink": "https://github.com/christianduhp/api_classificador_artigo",
     "challenge": "Classificação automática de artigos em categorias predefinidas.",
     "solution": "Treinei modelo de NLP e disponibilizei via API RESTful para integração com outros sistemas.",
     "galleryImages": []
