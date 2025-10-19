@@ -268,10 +268,15 @@ const PortfolioApp = {
     this.pageLoaders.homepage();
     this.pageLoaders.allProjects();
     this.pageLoaders.singleProject();
+
+    if (window.AOS) {
+      AOS.refreshHard();
+    } else {
+      AOS.init();
+    }
   },
 };
 
-// Inicia a aplicação quando o DOM estiver pronto.
-document.addEventListener("DOMContentLoaded", () => {
+export function initPortfolio() {
   PortfolioApp.init();
-});
+}

@@ -1,0 +1,10 @@
+.env
+/vendor/
+/composer.phar
+*.log
+*.cache
+*~
+*.bak
+.DS_Store
+Thumbs.db
+.vscode
