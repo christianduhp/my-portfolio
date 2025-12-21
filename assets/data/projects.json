@@ -41,7 +41,33 @@
     "solution": "Desenvolvi um portal interno utilizando Flask, com autenticação segura, cadastro de clientes, gestão de faturas, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência da equipe financeira.",
     "galleryImages": []
   },
-
+  {
+    "id": "mf-reflexus-website",
+    "title": "MF Reflexus Website",
+    "subtitle": "Site Institucional da MF Reflexus",
+    "thumbnailImage": "assets/images/projects/mf-reflexus-0.webp",
+    "heroImage": "assets/images/projects/mf-reflexus-0.webp",
+    "client": "Empresa Privada",
+    "myRole": "Desenvolvedor Front-End",
+    "technologies": ["HTML", "CSS", "Javascript", "PHP"],
+    "liveLink": "https://mfreflexus.com.br/",
+    "challenge": "O desafio foi desenvolver um site institucional para a MF Reflexus, uma empresa especializada em portas e espelhos sob medida. O site serve como um portfólio digital, apresentando os serviços, projetos concluídos e os materiais oferecidos, além de fornecer um canal de contato direto com os clientes.",
+    "solution": "O projeto foi construído com foco em design moderno, responsividade e interatividade, utilizando tecnologias web modernas para o frontend e PHP para o processamento do formulário de contato no backend.",
+    "galleryImages": [
+      "assets/images/projects/mf-reflexus-0.webp",
+      "assets/images/projects/mf-reflexus-1.webp",
+      "assets/images/projects/mf-reflexus-2.webp",
+      "assets/images/projects/mf-reflexus-3.webp",
+      "assets/images/projects/mf-reflexus-5.webp",
+      "assets/images/projects/mf-reflexus-6.webp",
+      "assets/images/projects/mf-reflexus-7.webp",
+      "assets/images/projects/mf-reflexus-8.webp",
+      "assets/images/projects/mf-reflexus-9.webp",
+      "assets/images/projects/mf-reflexus-10.webp",
+      "assets/images/projects/mf-reflexus-11.webp",
+      "assets/images/projects/mf-reflexus-12.webp"
+    ]
+  },
   {
     "id": "website-nutricionista",
     "title": "Website Nutricionista",
