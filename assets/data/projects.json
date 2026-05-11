@@ -25,7 +25,12 @@
     "liveLink": null,
     "challenge": "Centralizar a gestão de colaboradores e processos de RH, substituindo planilhas manuais por um sistema integrado, seguro e escalável.",
     "solution": "Desenvolvi um portal interno utilizando Flask, com autenticação segura, cadastro de funcionários, gestão de férias, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência da equipe de RH.",
-    "galleryImages": []
+    "galleryImages": [
+      "assets/images/projects/portal-rh-1.webp",
+      "assets/images/projects/portal-rh-2.webp",
+      "assets/images/projects/portal-rh-3.webp",
+      "assets/images/projects/portal-rh-4.webp"
+    ]
   },
   {
     "id": "gestao-pagamentos",
@@ -38,8 +43,8 @@
     "technologies": ["Python", "Flask", "MySQL", "JavaScript", "Bootstrap"],
     "liveLink": null,
     "challenge": "Centralizar a gestão de pagamentos de clientes, substituindo planilhas manuais por um sistema integrado, seguro e escalável.",
-    "solution": "Desenvolvi um portal interno utilizando Flask, com autenticação segura, cadastro de clientes, gestão de faturas, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência da equipe financeira.",
-    "galleryImages": []
+    "solution": "Desenvolvi um portal interno utilizando Flask, com cadastro de clientes, gestão de faturas,  integração com sistemas externos como Itáu e WhatsApp,  envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência da equipe financeira.",
+    "galleryImages": ["assets/images/projects/gestao-pagamentos-1.webp"]
   },
   {
     "id": "mf-reflexus-website",
@@ -129,7 +134,7 @@
     "liveLink": null,
     "challenge": "Centralizar a gestão de processos empresariais, como automação de tarefas repetitivas, substituindo planilhas manuais por um sistema integrado, seguro e escalável.",
     "solution": "Desenvolvi um portal interno utilizando Flask, para gestão de automações, envio automatizado de e-mails e relatórios dinâmicos. A solução reduziu o retrabalho manual e aumentou a eficiência operacional da empresa.",
-    "galleryImages": []
+    "galleryImages": ["assets/images/projects/central-automacoes-1.webp"]
   },
   {
     "id": "ai-personal-trainer",
