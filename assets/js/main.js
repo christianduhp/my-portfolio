@@ -22,3 +22,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initGtagAnalytics();
   initScrollSpy();
 });
+
+document.querySelector(".year").textContent = new Date().getFullYear();
